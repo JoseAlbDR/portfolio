@@ -1,6 +1,8 @@
 :root {
-  --secondary-color: #e9ecef;
-  --primary-color: #495057;
+  --primary-color:#4263eb
+  --secondary-color: #91a7ff;
+  --primary-grey: #495057;
+  --secondary-grey: #e9ecef;
 }
 
 * {
@@ -14,10 +16,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Navigation */
+.navbar a{
+  color: #fff;
+}
+
 /* Hero */
 #hero {
-  width: 100%;
-  height: 80vh;
+  height: 100vh;
   background: url("./assets/img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -38,19 +44,31 @@ body {
 
 #hero .container {
   text-align: center;
-  color: var(--secondary-color);
+  color: var(--secondary-grey);
   font-weight: 700;
 }
 
+/* .hero-back{
+  display: inline-block;
+  padding: 1.5em 0;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+} */
+
 #hero h1,
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
+}
+
+#hero h1{
+  font-size: 5rem;
+  margin-bottom: 0.5em;
+  
 }
 
 /* About me */
 #about {
-  color: var(--primary-color);
+  color: var(--primary-grey);
 }
 
 #about h1 {
@@ -61,7 +79,13 @@ h2 {
 #about p {
   font-size: 1rem;
   letter-spacing: 1px;
+  line-height: 1.8em;
 }
+
+#about img{
+  border-radius: 20px;
+}
+
 /* Techs */
 .techs {
   padding: 15px 0;
@@ -89,3 +113,175 @@ h2 {
     max-width: 40%;
   }
 }
+
+/* Portfolio */
+.portfolio{
+  position: relative;
+  transition: all 1s ease-in-out;
+  z-index: 999;
+}
+
+.portfolio:hover{
+  transform: scale(1.2);
+  z-index: 999;
+  transition: all 1s ease-in-out;
+}
+
+/* .project-name{
+  display: inline-block
+} */
+.project-title{
+  content: "Forkify";
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e2b146aa;
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  top: 55%;
+  margin-top: -70px;
+  z-index: 1;
+}
+
+@media(max-width: 990px){
+  .project-title{
+    top: 45%;
+  }
+  
+}
+
+@media(max-width: 768px){
+  .project-title{
+    top: 50%;
+  }
+  
+}
+
+@media(max-width: 576px){
+  .project-title{
+    top: 55%;
+  }
+  
+}
+/*//////////// ANIMATIONS */
+/* Loading animation */
+/* .loading {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 5em;
+  border-bottom: 16px solid #fff;
+  display: inline-block;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
+}
+
+.loading:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #91a7ff;
+  overflow: hidden;
+  border-bottom: 16px solid #91a7ff;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+} */
+
+/* Wavy animation */
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 30px;
+  margin-top: 50px;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.bezier h1 {
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.bezier span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.bezier span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+.bezier span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+
+
