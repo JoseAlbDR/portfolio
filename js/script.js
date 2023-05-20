@@ -1,6 +1,10 @@
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const bezier = document.querySelector(".hero-text");
-
+const navBar = document.querySelector(".navbar");
+const header = document.querySelector(".header");
+const nav = document.querySelector(".navbar");
+const hero = document.querySelector("#hero");
+// Hacker Effect on load
 window.addEventListener("load", () => {
   let iterations = 0;
   const event = document.querySelector(".hack");
@@ -19,6 +23,7 @@ window.addEventListener("load", () => {
   }, 50);
 });
 
+// Hacker effect on Moseover
 document.querySelector(".hack").onmouseover = (event) => {
   let iterations = 0;
   const interval = setInterval(() => {
@@ -42,10 +47,11 @@ const showHero = function (entries) {
   if (entry.isIntersecting) {
     bezier.classList.add("bezier");
     bezier.classList.remove("opacity-0");
-    console.log(bezier.style);
+    // console.log(bezier.style);
   }
 };
 
+// Blur effect in Hero Section
 const obsHero = new IntersectionObserver(showHero, {
   root: null,
   threshold: 0.5,
@@ -54,7 +60,7 @@ const obsHero = new IntersectionObserver(showHero, {
 obsHero.observe(bezier);
 
 // Data type effect
-var TxtType = function (el, toRotate, period) {
+const TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
@@ -65,8 +71,8 @@ var TxtType = function (el, toRotate, period) {
 };
 
 TxtType.prototype.tick = function () {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
+  const i = this.loopNum % this.toRotate.length;
+  const fullTxt = this.toRotate[i];
 
   if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -76,8 +82,8 @@ TxtType.prototype.tick = function () {
 
   this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
-  var that = this;
-  var delta = 200 - Math.random() * 100;
+  const that = this;
+  let delta = 200 - Math.random() * 100;
 
   if (this.isDeleting) {
     delta /= 2;
@@ -98,17 +104,47 @@ TxtType.prototype.tick = function () {
 };
 
 window.onload = function () {
-  var elements = document.getElementsByClassName("typewrite");
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute("data-type");
-    var period = elements[i].getAttribute("data-period");
+  const elements = document.getElementsByClassName("typewrite");
+  for (let i = 0; i < elements.length; i++) {
+    const toRotate = elements[i].getAttribute("data-type");
+    const period = elements[i].getAttribute("data-period");
     if (toRotate) {
       new TxtType(elements[i], JSON.parse(toRotate), period);
     }
   }
   // INJECT CSS
-  var css = document.createElement("style");
+  const css = document.createElement("style");
   css.type = "text/css";
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
+
+// Navheight
+
+const navHeight = nav.getBoundingClientRect().height;
+
+const stickyNav = function (entries) {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) nav.classList.add("sticky");
+  else nav.classList.remove("sticky");
+};
+
+const headerObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 1,
+  rootMargin: `+${navHeight}px`,
+});
+
+headerObserver.observe(hero);
+
+nav.addEventListener("click", function (event) {
+  event.target.classList.add("active");
+  event.target.classList.add("underline");
+  const siblings = document.querySelectorAll(".nav-link");
+  siblings.forEach((sib) => {
+    if (event.target === sib) return;
+    sib.classList.remove("active");
+    sib.classList.remove("underline");
+  });
+});
