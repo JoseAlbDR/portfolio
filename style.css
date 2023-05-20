@@ -117,7 +117,7 @@ h2 {
 /* Portfolio */
 .portfolio{
   position: relative;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   z-index: 999;
 }
 
@@ -127,11 +127,15 @@ h2 {
   transition: all 1s ease-in-out;
 }
 
+.btn-group button:hover{
+  background-color: #91a7ff;
+}
 /* .project-name{
   display: inline-block
 } */
 .project-title{
   content: "Forkify";
+  user-select: none;
   display: inline-block;
   font-size: 3rem;
   font-weight: 700;
