@@ -1,4 +1,3 @@
-const bezier = document.querySelector(".hero-text");
 const navBar = document.querySelector(".navbar");
 const header = document.querySelector(".header");
 const nav = document.querySelector(".navbar");
@@ -7,26 +6,9 @@ const hero = document.querySelector("#hero");
 import EffectView from "./views/effectView.js";
 
 const view = new EffectView();
-view.rdmLettersOnLoad();
-view.rdmLettersMouseOver();
-
-const showHero = function (entries) {
-  const [entry] = entries;
-  if (entry.isIntersecting) {
-    bezier.classList.add("bezier");
-    bezier.classList.remove("opacity-0");
-    // console.log(bezier.style);
-  }
-};
-
-// Blur effect in Hero Section
-const obsHero = new IntersectionObserver(showHero, {
-  root: null,
-  threshold: 0.5,
-});
-
-obsHero.observe(bezier);
-
+view.showRdmLettersOnLoad();
+view.showRdmLettersMouseOver();
+view.showHero();
 // Data type effect
 const TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
