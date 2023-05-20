@@ -23,7 +23,7 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
-    <script defer type="module" src="./js/script.js"></script>
+    <script defer type="module" src="./js/controller.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -48,7 +48,7 @@
             <ul class="navbar-nav d-flex ms-auto mb-2 mb-md-0">
               <li class="nav-item">
                 <a
-                  class="nav-link active hover-underline-animation"
+                  class="nav-link active underline hover-underline-animation"
                   aria-current="page"
                   href="#"
                   >Inicio</a
@@ -60,17 +60,17 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#"
+                <a class="nav-link hover-underline-animation" href="#portfolio"
                   >Portfolio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#"
+                <a class="nav-link hover-underline-animation" href="#formacion"
                   >Formación</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link hover-underline-animation" href="#"
+                <a class="nav-link hover-underline-animation" href="#contacto"
                   >Contacto</a
                 >
               </li>
@@ -82,7 +82,10 @@
     </header>
 
     <!-- Hero -->
-    <section id="hero" class="d-flex align-items-center justify-content-center">
+    <section
+      id="hero"
+      class="section d-flex align-items-center justify-content-center"
+    >
       <div class="container position-relative">
         <div class="hero-back">
           <h1 class="hack" data-value="J.ALBERTO DELGADO">J.ALBERTO DELGADO</h1>
@@ -116,7 +119,7 @@
     <!-- End Hero -->
 
     <!-- About me -->
-    <section id="about">
+    <section id="about" class="section">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -155,7 +158,7 @@
     <!-- End About me -->
 
     <!-- Tech Section -->
-    <section id="clients" class="techs section-bg">
+    <section id="techs" class="techs section-bg">
       <div class="container">
         <div class="row">
           <div
@@ -219,7 +222,7 @@
     <!-- End Techs Section -->
 
     <!-- Portfolio Section -->
-    <section>
+    <section id="portfolio" class="section">
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">

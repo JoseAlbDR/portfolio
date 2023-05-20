@@ -2,6 +2,7 @@
   --primary-color: #4263eb;
   --secondary-color: #91a7ff;
   --primary-grey: #495057;
+  --primary-grey-alpha: #495057f8;
   --secondary-grey: #e9ecef;
   --forkify: #e2b146aa;
 }
@@ -38,7 +39,7 @@ body {
 
 .sticky {
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
-  background-color: var(--primary-grey);
+  background-color: var(--primary-grey-alpha);
 }
 
 /* Hero */

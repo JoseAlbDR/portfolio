@@ -1,4 +1,5 @@
 export default class EffectView {
+  _nav = document.querySelector(".navbar");
   _randomEffect() {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let iterations = 0;
@@ -110,5 +111,71 @@ export default class EffectView {
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
       document.body.appendChild(css);
     };
+  }
+
+  _headerObserver(stickyNav) {
+    const navHeight = this._nav.getBoundingClientRect().height;
+
+    return new IntersectionObserver(stickyNav.bind(this), {
+      root: null,
+      threshold: 1,
+      rootMargin: `+${navHeight}px`,
+    });
+  }
+
+  _stickyNav(entries) {
+    const [entry] = entries;
+    if (!entry.isIntersecting) this._nav.classList.add("sticky");
+    else this._nav.classList.remove("sticky");
+  }
+
+  showStickyNav() {
+    const observer = this._headerObserver(this._stickyNav);
+    observer.observe(hero);
+  }
+
+  _activeMenuItem() {
+    event.target.classList.add("active");
+    event.target.classList.add("underline");
+    const siblings = document.querySelectorAll(".nav-link");
+    siblings.forEach((sib) => {
+      if (event.target === sib) return;
+      sib.classList.remove("active");
+      sib.classList.remove("underline");
+    });
+  }
+
+  showActiveMenu() {
+    this._nav.addEventListener("click", this._activeMenuItem.bind(this));
+  }
+
+  showActiveMenuScroll() {
+    const allSections = document.querySelectorAll(".section");
+    console.log(allSections);
+
+    const revealSection = function (entries, observer) {
+      const [entry] = entries;
+
+      if (!entry.isIntersecting) return;
+
+      entry.target.classList.add("active");
+      entry.target.classList.add("underline");
+      const siblings = document.querySelectorAll(".nav-link");
+      siblings.forEach((sib) => {
+        if (entry.target === sib) return;
+        sib.classList.remove("active");
+        sib.classList.remove("underline");
+      });
+    };
+
+    const sectionObserver = new IntersectionObserver(revealSection, {
+      root: null,
+      threshold: 0.15,
+    });
+
+    allSections.forEach(function (section) {
+      sectionObserver.observe(section);
+      section.classList.add("section--hidden");
+    });
   }
 }
