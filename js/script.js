@@ -1,46 +1,14 @@
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const bezier = document.querySelector(".hero-text");
 const navBar = document.querySelector(".navbar");
 const header = document.querySelector(".header");
 const nav = document.querySelector(".navbar");
 const hero = document.querySelector("#hero");
-// Hacker Effect on load
-window.addEventListener("load", () => {
-  let iterations = 0;
-  const event = document.querySelector(".hack");
-  const interval = setInterval(() => {
-    event.textContent = event.textContent
-      .split("")
-      .map((letter, index) => {
-        if (index < iterations) {
-          return event.dataset.value[index];
-        }
-        return letters[Math.floor(Math.random() * 26)];
-      })
-      .join("");
-    if (iterations >= event.dataset.value.length) clearInterval(interval);
-    iterations += 1 / 3;
-  }, 50);
-});
 
-// Hacker effect on Moseover
-document.querySelector(".hack").onmouseover = (event) => {
-  let iterations = 0;
-  const interval = setInterval(() => {
-    event.target.innerText = event.target.innerText
-      .split("")
-      .map((letter, index) => {
-        if (index < iterations) {
-          return event.target.dataset.value[index];
-        }
-        return letters[Math.floor(Math.random() * 26)];
-      })
-      .join("");
-    if (iterations >= event.target.dataset.value.length)
-      clearInterval(interval);
-    iterations += 1 / 3;
-  }, 50);
-};
+import EffectView from "./views/effectView.js";
+
+const view = new EffectView();
+view.rdmLettersOnLoad();
+view.rdmLettersMouseOver();
 
 const showHero = function (entries) {
   const [entry] = entries;
