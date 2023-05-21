@@ -1,7 +1,7 @@
 :root {
   --primary-color: #4263eb;
-  --primary-alpha: rgba(59, 91, 219, 0.712);
-  --secondary-color: #dbe4ff;
+  --primary-alpha: rgba(145, 167, 255, 0.9);
+  --secondary-color: #edf2ff;
   --secondary-color-alpha: rgba(145, 167, 255, 0.7);
   --primary-grey: #495057;
   --primary-grey-alpha: #495057f8;
@@ -48,7 +48,7 @@ body {
 /* Hero */
 #hero {
   height: 100vh;
-  background: url("./assets/img/hero-bg.jpg") top center;
+  background: url("../assets/img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -151,7 +151,7 @@ h2 {
 }
 
 .btn-group button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .album-bg {
