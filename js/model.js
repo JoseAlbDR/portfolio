@@ -46,3 +46,30 @@ export const menuItems = [
     name: "Contacto",
   },
 ];
+
+export const techItems = [
+  {
+    src: "./assets/logos/HTML5_logo_and_wordmark.svg",
+    alt: "html5",
+  },
+  {
+    src: "./assets/logos/css-3-logo-svgrepo-com.svg",
+    alt: "css3",
+  },
+  {
+    src: "assets/logos/Unofficial_JavaScript_logo_2.svg",
+    alt: "javascript",
+  },
+  {
+    src: "assets/logos/Typescript_logo_2020.svg",
+    alt: "typescript",
+  },
+  {
+    src: "assets/logos/React-icon.svg",
+    alt: "react",
+  },
+  {
+    src: "assets/logos/Node.js_logo.svg",
+    alt: "nodejs",
+  },
+];
