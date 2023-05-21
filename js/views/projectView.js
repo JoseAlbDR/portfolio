@@ -67,7 +67,7 @@ class ProjectView {
               <a href="${project.netlifyUrl}" target="_blank"
                 ><button
                   type="button"
-                  class="btn btn-sm btn-outline-secondary"
+                  class="btn btn-sm btn-outline-secondary ms-2"
                 >
                   <img
                     src="assets/logos/browser-chrome.svg"
