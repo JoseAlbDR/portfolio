@@ -1,6 +1,6 @@
 :root {
   --primary-color: #4263eb;
-  --primary-alpha: rgba(145, 167, 255, 0.9);
+  --primary-alpha: rgba(66, 100, 235, 0.95);
   --secondary-color: #edf2ff;
   --secondary-color-alpha: rgba(145, 167, 255, 0.7);
   --primary-grey: #495057;
@@ -20,7 +20,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Navigation */
+/*---------------------------- Navigation */
 
 #header .navbar-link .active {
   font-size: 1.5rem;
@@ -32,7 +32,7 @@ body {
 
 .navbar a {
   font-size: 1.2rem;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   min-width: 95px;
   text-align: center;
 }
@@ -43,6 +43,9 @@ body {
     brightness(105%) contrast(103%);
 }
 
+.navbar-collapse .nav-link {
+  padding: 0;
+}
 .navbar .active {
   display: inline-block;
   font-size: 1.2rem;
@@ -53,7 +56,7 @@ body {
   background-color: var(--primary-alpha);
 }
 
-/* Hero */
+/* --------------------------------- Hero */
 #hero {
   height: 100vh;
   background: url("../assets/img/hero-bg.jpg") top center;
@@ -117,7 +120,7 @@ h2 {
   border-radius: 20px;
 }
 
-/* Techs */
+/* ---------------------------------- Techs */
 .techs {
   padding: 15px 0;
   text-align: center;
@@ -144,8 +147,36 @@ h2 {
     max-width: 40%;
   }
 }
+/* ---------------------------- Formation */
+.section-title {
+  padding-bottom: 30px;
+  background-color: #fff;
+  display: inline-block;
+}
 
-/* Portfolio */
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+.bg-blue {
+  background-color: var(--secondary-color);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+/* ---------------------------- Portfolio */
 #portfolio {
   color: var(--primary-grey);
 }
