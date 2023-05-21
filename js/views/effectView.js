@@ -1,5 +1,6 @@
 export default class EffectView {
   _nav = document.querySelector(".navbar");
+
   _randomEffect() {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let iterations = 0;
@@ -17,15 +18,6 @@ export default class EffectView {
       if (iterations >= event.dataset.value.length) clearInterval(interval);
       iterations += 1 / 3;
     }, 50);
-  }
-  // Random letters on load
-  showRdmLettersOnLoad() {
-    window.addEventListener("load", () => this._randomEffect());
-  }
-
-  // Random letters on mouseover
-  showRdmLettersMouseOver() {
-    document.querySelector(".hack").onmouseover = () => this._randomEffect();
   }
 
   _obsHero() {
@@ -47,8 +39,95 @@ export default class EffectView {
     obsHero.observe(bezier);
   }
 
+  _headerObserver(stickyNav) {
+    const navHeight = this._nav.getBoundingClientRect().height;
+
+    return new IntersectionObserver(stickyNav.bind(this), {
+      root: null,
+      threshold: 1,
+      rootMargin: `+${navHeight}px`,
+    });
+  }
+
+  _stickyNav(entries) {
+    const [entry] = entries;
+    if (!entry.isIntersecting) this._nav.classList.add("sticky");
+    else this._nav.classList.remove("sticky");
+  }
+
+  _addActive(element) {
+    element.classList.add("active");
+    element.classList.add("underline");
+  }
+
+  _removeActive(element) {
+    element.classList.remove("active");
+    element.classList.remove("underline");
+  }
+
+  _activeMenuItem() {
+    this._addActive(event.target);
+    const siblings = document.querySelectorAll(".nav-link");
+    siblings.forEach((sib) => {
+      if (event.target === sib) return;
+      this._removeActive(event.target);
+    });
+  }
+
+  _sectionObserver(revealSection) {
+    return new IntersectionObserver(revealSection.bind(this), {
+      root: null,
+      threshold: 0.15,
+    });
+  }
+
+  _revealSection(entries) {
+    const [entry] = entries;
+
+    if (!entry.isIntersecting) return;
+
+    console.log(entry.target.id);
+
+    const siblings = document.querySelectorAll(".nav-link");
+    siblings.forEach((sib) => {
+      const navHref = sib.getAttribute("href").slice(1);
+      if (entry.target.id === navHref) {
+        this._addActive(sib);
+      } else {
+        this._removeActive(sib);
+      }
+    });
+  }
+
   showBlur() {
     this._obsHero();
+  }
+
+  // Random letters on load
+  showRdmLettersOnLoad() {
+    window.addEventListener("load", () => this._randomEffect());
+  }
+
+  // Random letters on mouseover
+  showRdmLettersMouseOver() {
+    document.querySelector(".hack").onmouseover = () => this._randomEffect();
+  }
+
+  showActiveMenu() {
+    this._nav.addEventListener("click", this._activeMenuItem.bind(this));
+  }
+
+  showActiveMenuScroll() {
+    const allSections = document.querySelectorAll(".section");
+    const sectionObserver = this._sectionObserver(this._revealSection);
+    allSections.forEach(function (section) {
+      sectionObserver.observe(section);
+    });
+  }
+
+  showStickyNav() {
+    const observer = this._headerObserver(this._stickyNav);
+    observer.observe(hero);
   }
 
   showDataType() {
@@ -111,71 +190,5 @@ export default class EffectView {
       css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
       document.body.appendChild(css);
     };
-  }
-
-  _headerObserver(stickyNav) {
-    const navHeight = this._nav.getBoundingClientRect().height;
-
-    return new IntersectionObserver(stickyNav.bind(this), {
-      root: null,
-      threshold: 1,
-      rootMargin: `+${navHeight}px`,
-    });
-  }
-
-  _stickyNav(entries) {
-    const [entry] = entries;
-    if (!entry.isIntersecting) this._nav.classList.add("sticky");
-    else this._nav.classList.remove("sticky");
-  }
-
-  showStickyNav() {
-    const observer = this._headerObserver(this._stickyNav);
-    observer.observe(hero);
-  }
-
-  _activeMenuItem() {
-    event.target.classList.add("active");
-    event.target.classList.add("underline");
-    const siblings = document.querySelectorAll(".nav-link");
-    siblings.forEach((sib) => {
-      if (event.target === sib) return;
-      sib.classList.remove("active");
-      sib.classList.remove("underline");
-    });
-  }
-
-  showActiveMenu() {
-    this._nav.addEventListener("click", this._activeMenuItem.bind(this));
-  }
-
-  showActiveMenuScroll() {
-    const allSections = document.querySelectorAll(".section");
-    console.log(allSections);
-
-    const revealSection = function (entries, observer) {
-      const [entry] = entries;
-
-      if (!entry.isIntersecting) return;
-
-      entry.target.classList.add("active");
-      entry.target.classList.add("underline");
-      const siblings = document.querySelectorAll(".nav-link");
-      siblings.forEach((sib) => {
-        if (entry.target === sib) return;
-        sib.classList.remove("active");
-        sib.classList.remove("underline");
-      });
-    };
-
-    const sectionObserver = new IntersectionObserver(revealSection, {
-      root: null,
-      threshold: 0.15,
-    });
-
-    allSections.forEach(function (section) {
-      sectionObserver.observe(section);
-      section.classList.add("section--hidden");
-    });
   }
 }
