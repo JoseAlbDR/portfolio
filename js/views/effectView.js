@@ -21,13 +21,16 @@ export default class EffectView {
   }
 
   _obsHero() {
-    const bezier = document.querySelector(".hero-text");
+    const bezier = document.querySelectorAll(".hero-text");
+    console.log(bezier);
+
     const intersectionHero = function (entries) {
       const [entry] = entries;
+
       if (entry.isIntersecting) {
-        bezier.classList.add("bezier");
-        bezier.classList.remove("opacity-0");
-        // console.log(bezier.style);
+        entry.target.classList.add("bezier");
+        entry.target.classList.remove("opacity-0");
+        observer.unobserve(entry.target);
       }
     };
     // Blur effect in Hero Section
@@ -36,7 +39,7 @@ export default class EffectView {
       threshold: 0.5,
     });
 
-    obsHero.observe(bezier);
+    bezier.forEach((element) => obsHero.observe(element));
   }
 
   _headerObserver(stickyNav) {

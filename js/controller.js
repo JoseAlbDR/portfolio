@@ -1,9 +1,6 @@
-const navBar = document.querySelector(".navbar");
-const header = document.querySelector(".header");
-const nav = document.querySelector(".navbar");
-const hero = document.querySelector("#hero");
-
 import EffectView from "./views/effectView.js";
+import { projects } from "./model.js";
+import projectView from "./views/projectView.js";
 
 const init = function () {
   const view = new EffectView();
@@ -15,5 +12,6 @@ const init = function () {
   view.showActiveMenu();
   view.showActiveMenuScroll();
 };
-
 init();
+
+projectView.render(projects);

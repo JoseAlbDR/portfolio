@@ -100,7 +100,7 @@ h2 {
 }
 
 #about p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 1px;
   line-height: 1.8em;
 }
@@ -138,10 +138,26 @@ h2 {
 }
 
 /* Portfolio */
+#portfolio {
+  color: var(--primary-grey);
+}
+
+#portfolio button:hover {
+  background-color: var(--primary-color);
+}
+#portfolio p.lead {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+#portfolio h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
 .portfolio {
   position: relative;
   transition: all 0.5s ease-in-out;
-  z-index: 999;
 }
 
 .portfolio:hover {
@@ -166,7 +182,7 @@ h2 {
   display: inline-block;
   font-size: 3rem;
   font-weight: 700;
-  color: var(--forkify);
+  color: var(--primary-color);
   position: absolute;
   left: 50%;
   margin-left: -70px;
