@@ -81,3 +81,41 @@ export const aboutItems = [
     text: "¡Hola! Soy J. Alberto Delgado, un estudiante principiante de desarrollo web. Mi pasión es resolver problemas a través de la programación. Actualmente, me encuentro en un bootcamp de desarrollo web full stack, ampliando mis habilidades en front-end y back-end. Mi meta es crecer como profesional en el desarrollo web y aportar mi conocimiento a proyectos futuros.",
   },
 ];
+
+export const footerItems = [
+  {
+    social: [
+      {
+        href: "https://github.com/JoseAlbDR/",
+        src: "assets/logos/github.svg",
+      },
+      {
+        href: "https://www.linkedin.com/in/jalbertodelgado/",
+        src: "assets/logos/linkedin.svg",
+      },
+    ],
+    menu: [
+      {
+        href: "#",
+        name: "Inicio",
+      },
+      {
+        href: "#about",
+        name: "Sobre Mí",
+      },
+      {
+        href: "#portfolio",
+        name: "Portfolio",
+      },
+      {
+        href: "#formacion",
+        name: "Formación",
+      },
+      {
+        href: "contacto",
+        name: "Contacto",
+      },
+    ],
+    copyright: "© 2023 J.Alberto Delgado",
+  },
+];
