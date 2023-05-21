@@ -1,4 +1,4 @@
-export const projects = [
+export const projectItems = [
   {
     name: "Forkify",
     text: "Web APP en la que puedes buscar recetas y guardar tus favoritas. Las recetas se obtienen llamando a una API externa.",
@@ -71,5 +71,13 @@ export const techItems = [
   {
     src: "assets/logos/Node.js_logo.svg",
     alt: "nodejs",
+  },
+];
+
+export const aboutItems = [
+  {
+    imageSrc: "./assets/img/about-img.jpg",
+    title: "Nunca es tarde para descubrir tu pasion.",
+    text: "¡Hola! Soy J. Alberto Delgado, un estudiante principiante de desarrollo web. Mi pasión es resolver problemas a través de la programación. Actualmente, me encuentro en un bootcamp de desarrollo web full stack, ampliando mis habilidades en front-end y back-end. Mi meta es crecer como profesional en el desarrollo web y aportar mi conocimiento a proyectos futuros.",
   },
 ];

@@ -25,6 +25,7 @@ export default class EffectView {
 
     const intersectionHero = function (entries) {
       const [entry] = entries;
+      console.log(entry.isIntersecting);
 
       if (entry.isIntersecting) {
         entry.target.classList.add("bezier");
