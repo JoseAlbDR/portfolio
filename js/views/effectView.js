@@ -30,7 +30,6 @@ export default class EffectView {
       if (entry.isIntersecting) {
         entry.target.classList.add("bezier");
         entry.target.classList.remove("opacity-0");
-        observer.unobserve(entry.target);
       }
     };
     // Blur effect in Hero Section

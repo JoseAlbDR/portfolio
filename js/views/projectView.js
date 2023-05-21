@@ -1,26 +1,7 @@
-class ProjectView {
-  _data;
+import View from "./View.js";
 
-  render(data) {
-    this._parenElement = document.querySelector(".projects-container");
-    this._data = data;
-
-    const markup = this._generateMarkup();
-    this._clearParent();
-    this._parenElement.insertAdjacentHTML("afterbegin", markup);
-  }
-
-  _clearParent() {
-    this._parenElement.innerHTML = "";
-  }
-
-  _generateMarkup() {
-    return !this._data.length
-      ? this._clearParent()
-      : this._data
-          .map((project) => this._generateProjectMarkup(project))
-          .join("");
-  }
+class ProjectView extends View {
+  _parenElement = document.querySelector(".projects-container");
 
   _generateProjectMarkup(project) {
     return `
