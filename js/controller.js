@@ -1,6 +1,7 @@
 import EffectView from "./views/effectView.js";
-import { projects } from "./model.js";
+import { projects, menuItems } from "./model.js";
 import projectView from "./views/projectView.js";
+import menuView from "./views/menuView.js";
 
 const init = function () {
   const view = new EffectView();
@@ -15,3 +16,4 @@ const init = function () {
 init();
 
 projectView.render(projects);
+menuView.render(menuItems);

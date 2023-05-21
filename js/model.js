@@ -23,3 +23,26 @@ export const projects = [
     thumbnail: "./assets/thumbnail/mapty.png",
   },
 ];
+
+export const menuItems = [
+  {
+    href: "#hero",
+    name: "Inicio",
+  },
+  {
+    href: "#about",
+    name: "Sobre Mí",
+  },
+  {
+    href: "#portfolio",
+    name: "Portfolio",
+  },
+  {
+    href: "#formacion",
+    name: "Formación",
+  },
+  {
+    href: "#contacto",
+    name: "Contacto",
+  },
+];

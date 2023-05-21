@@ -22,7 +22,6 @@ export default class EffectView {
 
   _obsHero() {
     const bezier = document.querySelectorAll(".hero-text");
-    console.log(bezier);
 
     const intersectionHero = function (entries) {
       const [entry] = entries;

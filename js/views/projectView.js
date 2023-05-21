@@ -1,29 +1,29 @@
 import View from "./View.js";
 
 class ProjectView extends View {
-  _parenElement = document.querySelector(".projects-container");
+  _parentElement = document.querySelector(".projects-container");
 
-  _generateProjectMarkup(project) {
+  _generateElementMarkup(element) {
     return `
     <div class="portfolio col">
-      <p class="project-title">${project.name}</p>
+      <p class="element-title">${element.name}</p>
       <div class="card shadow-sm">
         <div class="card-img">
           <img
             class="bd-placeholder-img card-img-top"
             width="100%"
             height="225"
-            src="${project.thumbnail}"
+            src="${element.thumbnail}"
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           />
         </div>
-        <title>${project.name}</title>
+        <title>${element.name}</title>
         <rect width="100%" height="100%" fill="#55595c"></rect>
 
         <div class="card-body">
           <p class="card-text">
-            ${project.text}
+            ${element.text}
           </p>
           <div
             class="d-flex justify-content-between align-items-center"
@@ -31,7 +31,7 @@ class ProjectView extends View {
             <div class="btn-group">
               <!-- Linkedin -->
               <a
-                href="${project.gitHubUrl}"
+                href="${element.gitHubUrl}"
                 target="_blank"
                 ><button
                   type="button"
@@ -45,7 +45,7 @@ class ProjectView extends View {
                   GitHub
                 </button>
               </a>
-              <a href="${project.netlifyUrl}" target="_blank"
+              <a href="${element.netlifyUrl}" target="_blank"
                 ><button
                   type="button"
                   class="btn btn-sm btn-outline-secondary ms-2"
