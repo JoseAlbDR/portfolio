@@ -25,7 +25,7 @@ export default class EffectView {
 
     const intersectionHero = function (entries) {
       const [entry] = entries;
-      console.log(entry.isIntersecting);
+      console.log(entry.target);
 
       if (entry.isIntersecting) {
         entry.target.classList.add("bezier");
@@ -88,8 +88,7 @@ export default class EffectView {
 
     if (!entry.isIntersecting) return;
 
-    console.log(entry.target.id);
-
+    entry.target.classList.remove("section-hidden");
     const siblings = document.querySelectorAll(".nav-link");
     siblings.forEach((sib) => {
       const navHref = sib.getAttribute("href").slice(1);

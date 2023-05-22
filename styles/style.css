@@ -103,6 +103,7 @@ h2 {
 /* About me */
 #about {
   color: var(--primary-grey);
+  transition: transform 1s, opacity 1s;
 }
 
 #about h1 {
@@ -151,6 +152,7 @@ h2 {
 
 #formacion {
   color: var(--primary-grey);
+  transition: transform 1s, opacity 1s;
 }
 
 #formacion h1 {
@@ -198,9 +200,16 @@ h2 {
 .bg-white {
   background-color: #fff;
 }
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 /* ---------------------------- Portfolio */
 #portfolio {
   color: var(--primary-grey);
+  transition: transform 1s, opacity 1s;
 }
 
 #portfolio button {
@@ -253,9 +262,7 @@ h2 {
 .album-bg {
   background-color: var(--secondary-color);
 }
-/* .project-name{
-  display: inline-block
-} */
+
 .project-title {
   content: "Forkify";
   user-select: none;
@@ -288,9 +295,120 @@ h2 {
     top: 55%;
   }
 }
+/* ------------------------------ Contact */
+.box-shadow {
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+}
 
-/* Footer */
+.round-border {
+  border-radius: 15px;
+}
+#contacto {
+  color: var(--primary-grey);
+  transition: transform 1s, opacity 1s;
+}
 
+#contacto h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+#contacto p.lead {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 1.8em;
+}
+
+.boton {
+  border: 3px solid var(--primary-color);
+  transition: all 0.5s ease;
+  color: var(--primary-color);
+  background-color: #fff;
+}
+
+.boton:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-10px);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.boton:active {
+  transform: translateY(0px);
+  box-shadow: none;
+}
+
+/* ------------------------------------------------------------------------------- */
+.form-group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form-field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid var(--primary-grey);
+  outline: 0;
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form-label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: var(--primary-grey);
+}
+
+.form-field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    background-color: var(--secondary-color);
+  }
+
+  padding-bottom: 6px;
+  border-width: 3px;
+  border-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  border-image-slice: 1;
+  background-color: var(--secondary-color);
+}
+/* reset input */
+.form-field {
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------- Footer */
 .text-body-secondary {
   font-size: 1.2rem;
   margin-right: 1rem;

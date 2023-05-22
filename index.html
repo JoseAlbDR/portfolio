@@ -83,7 +83,6 @@
       </nav>
       <!-- End navbar -->
     </header>
-
     <!-- Hero -->
     <section
       id="hero"
@@ -142,13 +141,18 @@
       </div>
     </section>
     <!-- End Techs Section -->
+
     <!-- Formation Section -->
-    <section id="formacion" class="section formation resume bg-blue">
+    <section
+      id="formacion"
+      class="section formation resume bg-blue section-hidden"
+    >
       <!-- javascript -->
     </section>
     <!-- End Formation Section -->
+
     <!-- Portfolio Section -->
-    <section id="portfolio" class="section">
+    <section id="portfolio" class="section section-hidden">
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
@@ -187,6 +191,146 @@
     </section>
     <!-- End Portfolio Section -->
 
+    <!-- Contact Section -->
+    <section id="contacto" class="container section">
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <!--Section heading-->
+        <div class="container py-5 px-4">
+          <h1
+            class="h1-responsive font-weight-bold text-center my-4 display-5 fw-bold hero-text"
+          >
+            <span>¿Hablamos?</span>
+          </h1>
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto mb-5 lead">
+            ¿Tienes alguna pregunta? Porfavor no dudes en contactarme
+            directamente, o si lo prefieres puedes enviar un mensaje o visitar
+            mis redes sociales.
+          </p>
+        </div>
+        <div class="row box-shadow">
+          <!--Grid column-->
+          <div class="col-md-6 mb-md-0 py-5 px-5 mb-5 bg-blue">
+            <h3 class="pb-5 fw-bold">Enviame un mensaje</h3>
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 pb-5">
+                  <div class="md-form mb-0 form-group filed">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control form-field"
+                      placeholder="Nombre"
+                      required
+                    />
+                    <label for="name" class="form-label">Nombre</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-12 pb-5">
+                  <div class="md-form mb-0 form-group filed">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control form-field"
+                      placeholder="Email"
+                      required
+                    />
+                    <label for="name" class="form-label">Email</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12 pb-5">
+                  <div class="md-form mb-0 form-group filed">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control form-field"
+                      placeholder="Nombre"
+                      required
+                    />
+                    <label for="name" class="form-label">Nombre</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 pb-5">
+                  <div class="md-form form-group filed">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="8"
+                      class="form-control md-textarea form-field"
+                      placeholder="Mensaje"
+                      required
+                    ></textarea>
+                    <label for="name" class="form-label">Mensaje</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+
+            <div class="text-md-left">
+              <a
+                class="btn btn-lg btn-outline-primary boton"
+                onclick="document.getElementById('contact-form').submit();"
+                >Enviar</a
+              >
+            </div>
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 text-center">
+            <h3 class="py-5">Contacta Conmigo</h3>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>San Francisco, CA 94126, USA</p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone mt-4 fa-2x"></i>
+                <p>+ 01 234 567 89</p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p>contact@mdbootstrap.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+      </section>
+      <!--Section: Contact v.2-->
+    </section>
+    <!-- End Contact Section -->
     <!-- Footer Section -->
     <div id="#footer" class="container">
       <footer class="footer py-3 my-4">
