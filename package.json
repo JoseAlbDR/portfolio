@@ -7,8 +7,12 @@
     "parcel": "^2.8.3"
   },
   "scripts": {
+    "clean-dist": "rm -rf dist && mkdir dist",
+    "create-dist": "cd dist && mkdir assets",
+    "copy-assets": " cp -r ./assets/* dist/assets",
+    "init": "npm run clean-dist && npm run create-dist && npm run copy-assets",
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+    "build": "npm run init && parcel build index.html --no-scope-hoist --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
