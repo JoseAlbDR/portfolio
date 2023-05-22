@@ -92,6 +92,10 @@ body {
   #hero {
     padding-top: 7rem;
   }
+
+  #hero .container {
+    text-align: left;
+  }
 }
 
 #hero h1,
