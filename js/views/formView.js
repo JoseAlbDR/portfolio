@@ -1,6 +1,8 @@
 import View from "./View.js";
+import contactView from "./contactView.js";
 
 class FormView extends View {
+  _contactData;
   /**
    * Class representing the view of the form.
    */
@@ -19,8 +21,6 @@ class FormView extends View {
    * @param {Function} handler - The handler function to be called on form submission.
    */
   addHandlerSubmit(handler) {
-    console.log(this._parentElement);
-
     document
       .querySelector(".upload")
       .addEventListener("submit", function (event) {
@@ -91,13 +91,16 @@ class FormView extends View {
         </p>
       </div>
     </div>
-
+    
     `;
   }
 
+  getData(data) {
+    this._contactData = data;
+    console.log(data);
+  }
   _generateMarkup() {
     const data = this._data;
-    console.log(data);
 
     return `
       <div class="col-md-6 mb-md-0 py-5 px-5 mb-5 bg-blue">
@@ -114,10 +117,8 @@ class FormView extends View {
             </div>
           </fieldset>
         </form>
-
-        <div class="status"></div>
       </div>
-      
+      ${contactView._generateMarkup(this._contactData)}
     `;
   }
 }

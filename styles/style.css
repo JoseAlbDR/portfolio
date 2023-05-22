@@ -28,6 +28,7 @@ body {
 
 .navbar {
   transition: all 1s ease;
+  padding: 1.5rem;
 }
 
 .navbar a {
@@ -600,4 +601,8 @@ h2 {
     opacity: 1;
     filter: blur(0);
   }
+}
+
+.status {
+  display: block;
 }

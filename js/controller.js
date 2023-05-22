@@ -26,6 +26,7 @@ techsView.render(model.techItems);
 aboutView.render(model.aboutItems);
 footerView.render(model.footerItems);
 formationView.render(model.formationItems);
+formView.getData(model.contactWays);
 formView.render(model.contactForm);
 
 const controlSubmitForm = function (formData) {

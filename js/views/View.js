@@ -8,12 +8,15 @@ export default class View {
    * Renders the view with the provided data.
    * @param {object} data - The data to render.
    */
-  render(data) {
+  render(data, insert = "afterbegin") {
     this._data = data;
 
     const markup = this._generateMarkup();
     this._clearParent();
-    this._parentElement.insertAdjacentHTML("afterbegin", markup);
+    console.log(this._parentElement);
+
+    this._parentElement.insertAdjacentHTML(insert, markup);
+    console.log(this._parentElement);
   }
 
   /**
