@@ -26,7 +26,7 @@ class FooterView extends View {
     <li class="nav-item">
         <a
           href="${item.href}"
-          class="nav-link px-2 text-body-secondary hover-underline-animation"
+          class="nav-link footer-text fs-5 px-2 hover-underline-animation"
           >${item.name}</a
         >
     `;
@@ -34,7 +34,7 @@ class FooterView extends View {
 
   _generateMarkup() {
     return `
-    <div class="d-flex border-bottom justify-content-evenly">
+    <div class="d-flex border-bottom justify-content-around">
       <ul class="nav col-md-4 list-unstyled d-flex mt-2">
         ${this._data[0].social
           .map((element) => this._generateSocialMarkup(element))
@@ -49,7 +49,7 @@ class FooterView extends View {
           .join("")}
       </ul>
     </div>
-  <p class="text-center text-body-secondary">${this._data[0].copyright}</p>
+  <p class="text-center fs-4">${this._data[0].copyright}</p>
   
   `;
   }

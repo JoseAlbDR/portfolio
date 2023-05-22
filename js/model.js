@@ -112,7 +112,7 @@ export const footerItems = [
         name: "Portfolio",
       },
       {
-        href: "contacto",
+        href: "#contacto",
         name: "Contacto",
       },
     ],
