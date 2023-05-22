@@ -21,11 +21,10 @@ Esta es una landing page sin funcionalidades complejas, pero cuenta con animacio
 
 ## Contacto 📩
 
-Puedes contactarme a través de [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/jalbertodelgado/)).
+Puedes contactarme a través de [LinkedIn](https://www.linkedin.com/in/jalbertodelgado/).
 
 ## Estado del Proyecto 📋
 
 Versión 1.0 beta
 
 ¡Gracias y buena suerte con tu portfolio! Si tienes alguna otra pregunta, no dudes en preguntar.
-
