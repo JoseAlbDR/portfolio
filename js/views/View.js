@@ -26,4 +26,20 @@ export default class View {
           .map((element) => this._generateElementMarkup(element))
           .join("");
   }
+
+  renderSpinner() {
+    const markup = `
+      <div class="spinner">
+        <svg>
+          <use href="${icons}#icon-loader"></use>
+        </svg>
+      </div>
+    `;
+
+    // Clear parent
+    this._clear();
+
+    // Render markup
+    this._parentElement.insertAdjacentHTML("afterbegin", markup);
+  }
 }

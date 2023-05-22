@@ -213,115 +213,114 @@
           <!--Grid column-->
           <div class="col-md-6 mb-md-0 py-5 px-5 mb-5 bg-blue">
             <h3 class="pb-5 fw-bold">Enviame un mensaje</h3>
-            <form
-              id="contact-form"
-              name="contact-form"
-              action="mail.php"
-              method="POST"
-            >
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12 pb-5">
-                  <div class="md-form mb-0 form-group filed">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control form-field"
-                      placeholder="Nombre"
-                      required
-                    />
-                    <label for="name" class="form-label">Nombre</label>
+            <form id="contact-form" class="form upload">
+              <fieldset disabled>
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12 pb-5">
+                    <div class="md-form mb-0 form-group filed">
+                      <input
+                        value=""
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-control form-field"
+                        placeholder="Nombre"
+                        required
+                      />
+                      <label for="name" class="form-label mb-5">Nombre</label>
+                    </div>
                   </div>
-                </div>
-                <!--Grid column-->
+                  <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-md-12 pb-5">
-                  <div class="md-form mb-0 form-group filed">
-                    <input
-                      type="text"
-                      id="email"
-                      name="email"
-                      class="form-control form-field"
-                      placeholder="Email"
-                      required
-                    />
-                    <label for="name" class="form-label">Email</label>
+                  <!--Grid column-->
+                  <div class="col-md-12 pb-5">
+                    <div class="md-form mb-0 form-group filed">
+                      <input
+                        value=""
+                        type="text"
+                        id="email"
+                        name="email"
+                        class="form-control form-field"
+                        placeholder="Email"
+                        required
+                      />
+                      <label for="email" class="form-label">Email</label>
+                    </div>
                   </div>
+                  <!--Grid column-->
                 </div>
-                <!--Grid column-->
-              </div>
-              <!--Grid row-->
+                <!--Grid row-->
 
-              <!--Grid row-->
-              <div class="row">
-                <div class="col-md-12 pb-5">
-                  <div class="md-form mb-0 form-group filed">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control form-field"
-                      placeholder="Nombre"
-                      required
-                    />
-                    <label for="name" class="form-label">Nombre</label>
+                <!--Grid row-->
+                <div class="row">
+                  <div class="col-md-12 pb-5">
+                    <div class="md-form mb-0 form-group filed">
+                      <input
+                        value=""
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-control form-field"
+                        placeholder="Asunto"
+                        required
+                      />
+                      <label for="subject" class="form-label">Asunto</label>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!--Grid row-->
+                <!--Grid row-->
 
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12 pb-5">
-                  <div class="md-form form-group filed">
-                    <textarea
-                      type="text"
-                      id="message"
-                      name="message"
-                      rows="8"
-                      class="form-control md-textarea form-field"
-                      placeholder="Mensaje"
-                      required
-                    ></textarea>
-                    <label for="name" class="form-label">Mensaje</label>
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12 pb-5">
+                    <div class="md-form form-group filed">
+                      <textarea
+                        value=""
+                        type="text"
+                        id="message"
+                        name="message"
+                        rows="8"
+                        class="form-control md-textarea form-field"
+                        placeholder="Mensaje"
+                        required
+                      ></textarea>
+                      <label for="message" class="form-label">Mensaje</label>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!--Grid row-->
+                <!--Grid row-->
+                <div class="text-md-left">
+                  <button class="send btn btn-lg btn-outline-primary boton">
+                    Enviar
+                  </button>
+                </div>
+              </fieldset>
             </form>
 
-            <div class="text-md-left">
-              <a
-                class="btn btn-lg btn-outline-primary boton"
-                onclick="document.getElementById('contact-form').submit();"
-                >Enviar</a
-              >
-            </div>
             <div class="status"></div>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
           <div class="col-md-6 text-center">
-            <h3 class="py-5">Contacta Conmigo</h3>
+            <h3 class="py-5 fw-bold">Contacta Conmigo</h3>
             <ul class="list-unstyled mb-0">
               <li>
                 <i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>San Francisco, CA 94126, USA</p>
+                <p></p>
               </li>
 
               <li>
                 <i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 01 234 567 89</p>
+                <p></p>
               </li>
 
               <li>
                 <i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>contact@mdbootstrap.com</p>
+                <p></p>
               </li>
             </ul>
           </div>
@@ -332,7 +331,8 @@
     </section>
     <!-- End Contact Section -->
     <!-- Footer Section -->
-    <div id="#footer" class="container">
+    <div id="#footer" class="bg-blue">
+      <div class="container"></div>
       <footer class="footer py-3 my-4">
         <!-- javascript -->
       </footer>

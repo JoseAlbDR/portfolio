@@ -171,3 +171,7 @@ export const formationItems = [
     },
   },
 ];
+
+export const submitForm = function (formData) {
+  return formData;
+};
