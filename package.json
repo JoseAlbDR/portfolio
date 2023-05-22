@@ -2,7 +2,6 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio Page",
-  "default": "index.html",
   "devDependencies": {
     "parcel": "^2.8.3"
   },
