@@ -3,12 +3,6 @@ import View from "./View.js";
 class AboutView extends View {
   _parentElement = document.querySelector(".about-items");
 
-  _generateSpanMarkup(item) {
-    return `
-    <span>${item}</span>
-    `;
-  }
-
   _generateElementMarkup(element) {
     return `
       <div class="col-10 col-sm-8 col-lg-6">

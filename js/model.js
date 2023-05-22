@@ -34,12 +34,12 @@ export const menuItems = [
     name: "Sobre Mí",
   },
   {
-    href: "#portfolio",
-    name: "Portfolio",
-  },
-  {
     href: "#formacion",
     name: "Formación",
+  },
+  {
+    href: "#portfolio",
+    name: "Portfolio",
   },
   {
     href: "#contacto",
@@ -104,12 +104,12 @@ export const footerItems = [
         name: "Sobre Mí",
       },
       {
-        href: "#portfolio",
-        name: "Portfolio",
-      },
-      {
         href: "#formacion",
         name: "Formación",
+      },
+      {
+        href: "#portfolio",
+        name: "Portfolio",
       },
       {
         href: "contacto",
@@ -117,5 +117,57 @@ export const footerItems = [
       },
     ],
     copyright: "© 2023 J.Alberto Delgado",
+  },
+];
+
+export const formationItems = [
+  {
+    resumen: {
+      title: "El saber no ocupa lugar",
+      text: "A pesar de no contar con experiencia laboral previa, me encuentro en constante proceso de formación para adquirir habilidades valiosas. Mi pasión por aprender y adaptarme demuestra la relevancia de la capacitación para enfrentar proyectos desafiantes con confianza y creatividad.",
+    },
+    education: {
+      name: "Estudios",
+      titulation: [
+        {
+          title: "Administración de Sistemas Informáticos en Red",
+          date: "2010 - 2012",
+          institution: "I.E.S Antonio de Nebrija",
+          note: "8.08",
+          text: "El ciclo formativo de grado superior ASIR (Administración de Sistemas Informáticos en Red) brinda conocimientos y habilidades en la gestión de sistemas, redes y seguridad informática, preparando a los estudiantes para desempeñarse en roles técnicos especializados.",
+        },
+      ],
+    },
+    formation: {
+      name: "Certificación",
+      titulation: [
+        {
+          title: "Bootcap Desarrollo Web Full Stack KeepCoding",
+          date: "Mayo 2023 - Actualidad",
+          certificate: null,
+          institution:
+            "<a href='https://keepcoding.io/nuestros-bootcamps/full-stack-web-bootcamp/' target='_blank'>KeepCoding</a>",
+          text: "Programa de inmersión intensiva que ofrece una formación completa en desarrollo web, abarcando tanto el frontend como el backend. Con un enfoque práctico y basado en tecnologías de vanguardia, prepara a los estudiantes para convertirse en desarrolladores web altamente competentes y listos para enfrentar desafíos del mundo real.",
+        },
+        {
+          title: "The Complete JavaScript Course: From Zero to Expert!",
+          date: "Mayo 2023",
+          certificate:
+            "<a href='https://www.udemy.com/certificate/UC-bdb8b3a0-a5c1-4fb6-bece-d0149264fcaa/' target='_blank'>Certificado</a>",
+          institution:
+            "<a href='https://www.udemy.com/course/the-complete-javascript-course/' target='_blank'>Udemy</a>",
+          text: "Curso exhaustivo que lleva a los estudiantes desde el nivel básico hasta el nivel experto en JavaScript, proporcionando conocimientos completos sobre el lenguaje, incluyendo conceptos fundamentales, manipulación del DOM, manipulación de datos, programación orientada a objetos y más.",
+        },
+        {
+          title: "Curso de Git, Github &amp; SourceTree",
+          date: "Abril 2023",
+          certificate:
+            "<a href='https://1drv.ms/b/s!AqmllO1SZcxzhLBm0bPw5H_8w7vQNw?e=CsTq4h' target='_blank'>Certificado</a>",
+          institution:
+            "<a href='https://plataforma.keepcoding.io/p/curso-git-github-sourcetree' target='_blank'>KeepCoding</a>",
+          text: "El curso Git, GitHub & Sourcetree de KeepCoding es una formación completa que enseña a los estudiantes cómo utilizar Git y GitHub de manera eficiente para el control de versiones y la colaboración en proyectos de desarrollo de software. Además, el curso abarca el uso de Sourcetree como una herramienta visual para facilitar el flujo de trabajo con Git.",
+        },
+      ],
+    },
   },
 ];

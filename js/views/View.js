@@ -13,6 +13,12 @@ export default class View {
     this._parentElement.innerHTML = "";
   }
 
+  _generateSpanMarkup(item) {
+    return `
+    <span>${item}</span>
+    `;
+  }
+
   _generateMarkup() {
     return !this._data.length
       ? this._clearParent()
