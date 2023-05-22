@@ -357,15 +357,15 @@ h2 {
   background: transparent;
   transition: border-color 0.2s;
 
-  &::placeholder {
+  /* &::placeholder {
     color: transparent;
-  }
+  } */
 
-  &:placeholder-shown ~ .form__label {
+  /* &:placeholder-shown ~ .form__label {
     font-size: 1.3rem;
     cursor: text;
     top: 20px;
-  }
+  } */
 }
 
 .form-label {
@@ -378,17 +378,15 @@ h2 {
   color: var(--primary-grey);
 }
 
-.form-field:focus {
-  ~ .form__label {
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: var(--primary-color);
-    font-weight: 700;
-    background-color: var(--secondary-color);
-  }
+.form-field:focus .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 700;
+  background-color: var(--secondary-color);
 
   padding-bottom: 6px;
   border-width: 3px;
@@ -401,12 +399,12 @@ h2 {
   background-color: var(--secondary-color);
 }
 /* reset input */
-.form-field {
+/* .form-field {
   &:required,
   &:invalid {
     box-shadow: none;
   }
-}
+} */
 
 /* ----------------------------------------------------------------------------------- */
 /* ------------------------------- Footer */

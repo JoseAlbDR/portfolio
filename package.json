@@ -1,4 +1,25 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Page",
+  "default": "index.html",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseAlbDR/portfolio.git"
+  },
+  "author": "J.Alberto Delgado Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseAlbDR/portfolio/issues"
+  },
+  "homepage": "https://github.com/JoseAlbDR/portfolio#readme",
   "dependencies": {
     "bootstrap-icons": "^1.10.5"
   }
