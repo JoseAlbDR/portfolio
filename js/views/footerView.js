@@ -32,7 +32,7 @@ class FooterView extends View {
     `;
   }
 
-  _generateElementMarkup() {
+  _generateMarkup() {
     return `
     <div class="d-flex border-bottom justify-content-evenly">
       <ul class="nav col-md-4 list-unstyled d-flex mt-2">

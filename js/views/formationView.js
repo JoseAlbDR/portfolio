@@ -4,8 +4,6 @@ class FormationView extends View {
   _parentElement = document.querySelector(".formation");
 
   _generateSection(item) {
-    console.log(item);
-
     return `
     ${item.titulation
       .map((element) => {
@@ -28,11 +26,10 @@ class FormationView extends View {
           `;
       })
       .join("")}
-          
     `;
   }
 
-  _generateElementMarkup() {
+  _generateMarkup() {
     return `
       <div class="bg-white">
         <div class="container py-5 px-4">
