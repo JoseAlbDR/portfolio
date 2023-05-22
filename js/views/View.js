@@ -1,6 +1,13 @@
 export default class View {
+  /**
+   * Class representing a generic view.
+   */
   _data;
 
+  /**
+   * Renders the view with the provided data.
+   * @param {object} data - The data to render.
+   */
   render(data) {
     this._data = data;
 
@@ -9,16 +16,29 @@ export default class View {
     this._parentElement.insertAdjacentHTML("afterbegin", markup);
   }
 
+  /**
+   * Clears the parent element.
+   */
   _clearParent() {
     this._parentElement.innerHTML = "";
   }
 
+  /**
+   * Generates the markup for a span element.
+   * @param {string} item - The text content of the span element.
+   * @returns {string} - The HTML markup for the span element.
+   */
   _generateSpanMarkup(item) {
     return `
     <span>${item}</span>
     `;
   }
 
+  /**
+   * Generates the main markup for the view.
+   * Must be implemented in the child class.
+   * @returns {string} - The HTML markup.
+   */
   _generateMarkup() {
     return !this._data.length
       ? this._clearParent()
@@ -27,6 +47,9 @@ export default class View {
           .join("");
   }
 
+  /**
+   * Renders a spinner while data is being loaded.
+   */
   renderSpinner() {
     const markup = `
       <div class="spinner">

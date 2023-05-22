@@ -1,8 +1,16 @@
 import View from "./View.js";
 
 class ProjectView extends View {
+  /**
+   * Class representing the view of projects.
+   */
   _parentElement = document.querySelector(".projects-container");
 
+  /**
+   * Generates the markup for a project element.
+   * @param {object} element - The project element object.
+   * @returns {string} - The HTML markup for the project element.
+   */
   _generateElementMarkup(element) {
     return `
     <div class="portfolio col">

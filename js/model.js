@@ -1,3 +1,4 @@
+// Object to save projects
 export const projectItems = [
   {
     name: "Forkify",
@@ -24,6 +25,7 @@ export const projectItems = [
   },
 ];
 
+// Object to save menu items
 export const menuItems = [
   {
     href: "#hero",
@@ -47,6 +49,7 @@ export const menuItems = [
   },
 ];
 
+// Object to save technologies
 export const techItems = [
   {
     src: "./assets/logos/HTML5_logo_and_wordmark.svg",
@@ -74,6 +77,7 @@ export const techItems = [
   },
 ];
 
+// Object to save content for about section
 export const aboutItems = [
   {
     imageSrc: "../assets/img/about-img.jpg",
@@ -82,6 +86,7 @@ export const aboutItems = [
   },
 ];
 
+// Object to save data of footer
 export const footerItems = [
   {
     social: [
@@ -120,6 +125,7 @@ export const footerItems = [
   },
 ];
 
+// Object to save data for formation
 export const formationItems = [
   {
     resumen: {
@@ -172,6 +178,12 @@ export const formationItems = [
   },
 ];
 
+/** Model for submit contact form
+ * Under development
+ *
+ * @param {*} formData
+ * @returns
+ */
 export const submitForm = function (formData) {
   return formData;
 };

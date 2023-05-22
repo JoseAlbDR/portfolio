@@ -3,6 +3,11 @@ import View from "./View.js";
 class FooterView extends View {
   _parentElement = document.querySelector(".footer");
 
+  /**
+   * Generates the markup for a social item.
+   * @param {object} item - The social item data.
+   * @returns {string} - The HTML markup for the social item.
+   */
   _generateSocialMarkup(item) {
     return `
       <li class="ms-3">
@@ -21,6 +26,11 @@ class FooterView extends View {
     `;
   }
 
+  /**
+   * Generates the markup for a menu item.
+   * @param {object} item - The menu item data.
+   * @returns {string} - The HTML markup for the menu item.
+   */
   _generateMenuMarkup(item) {
     return `
     <li class="nav-item">
@@ -32,6 +42,10 @@ class FooterView extends View {
     `;
   }
 
+  /**
+   * Generates the main markup for the footer view.
+   * @returns {string} - The HTML markup.
+   */
   _generateMarkup() {
     return `
     <div class="d-flex border-bottom justify-content-around">

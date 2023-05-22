@@ -1,8 +1,14 @@
 import View from "./View.js";
 
+// About Section
 class AboutView extends View {
   _parentElement = document.querySelector(".about-items");
 
+  /**
+   * Generates the HTML markup for a view element
+   * @param {Object} element - Object containing the element data
+   * @returns {string} - The generated HTML markup for the element
+   */
   _generateElementMarkup(element) {
     return `
       <div class="col-10 col-sm-8 col-lg-6">

@@ -1,13 +1,5 @@
 import EffectView from "./views/effectView.js";
-import {
-  projectItems,
-  menuItems,
-  techItems,
-  aboutItems,
-  footerItems,
-  formationItems,
-  submitForm,
-} from "./model.js";
+import * as model from "./model.js";
 import projectView from "./views/projectView.js";
 import menuView from "./views/menuView.js";
 import techsView from "./views/techsView.js";
@@ -27,15 +19,16 @@ const init = function () {
   view.showActiveMenuScroll();
 };
 
-projectView.render(projectItems);
-menuView.render(menuItems);
-techsView.render(techItems);
-aboutView.render(aboutItems);
-footerView.render(footerItems);
-formationView.render(formationItems);
+// Render all html from model data
+projectView.render(model.projectItems);
+menuView.render(model.menuItems);
+techsView.render(model.techItems);
+aboutView.render(model.aboutItems);
+footerView.render(model.footerItems);
+formationView.render(model.formationItems);
 
 const controlSubmitForm = function (formData) {
-  const data = submitForm(formData);
+  const data = submitForm(model.formData);
   formView.clearForm();
   formView.successMsg();
 };

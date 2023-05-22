@@ -1,6 +1,10 @@
+// Class to handle dinamic effects with eventListeners and intersectionObservers
 export default class EffectView {
   _nav = document.querySelector(".navbar");
 
+  /**
+   * Generates a random effect with changing letters
+   */
   _randomEffect() {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let iterations = 0;
@@ -20,6 +24,9 @@ export default class EffectView {
     }, 50);
   }
 
+  /**
+   * Observes the hero section for intersection and applies a CSS class when it is intersecting
+   */
   _obsHero() {
     const bezier = document.querySelectorAll(".hero-text");
 
@@ -40,6 +47,11 @@ export default class EffectView {
     bezier.forEach((element) => obsHero.observe(element));
   }
 
+  /**
+   * Returns an IntersectionObserver object for observing the header element
+   * @param {Function} stickyNav - Callback function to be called when intersection occurs
+   * @returns {IntersectionObserver} - The IntersectionObserver object
+   */
   _headerObserver(stickyNav) {
     const navHeight = this._nav.getBoundingClientRect().height;
 
@@ -50,22 +62,37 @@ export default class EffectView {
     });
   }
 
+  /**
+   * Callback function for the sticky navigation behavior
+   * @param {IntersectionObserverEntry[]} entries - Array of intersection observer entries
+   */
   _stickyNav(entries) {
     const [entry] = entries;
     if (!entry.isIntersecting) this._nav.classList.add("sticky");
     else this._nav.classList.remove("sticky");
   }
 
+  /**
+   * Adds the "active" and "underline" classes to the specified element
+   * @param {HTMLElement} element - The element to add the classes to
+   */
   _addActive(element) {
     element.classList.add("active");
     element.classList.add("underline");
   }
 
+  /**
+   * Removes the "active" and "underline" classes from the specified element
+   * @param {HTMLElement} element - The element to remove the classes from
+   */
   _removeActive(element) {
     element.classList.remove("active");
     element.classList.remove("underline");
   }
 
+  /**
+   * Callback function for handling the active menu item
+   */
   _activeMenuItem() {
     this._addActive(event.target);
     const siblings = document.querySelectorAll(".nav-link");
@@ -75,6 +102,11 @@ export default class EffectView {
     });
   }
 
+  /**
+   * Returns an IntersectionObserver object for observing sections
+   * @param {Function} revealSection - Callback function to be called when intersection occurs
+   * @returns {IntersectionObserver} - The IntersectionObserver object
+   */
   _sectionObserver(revealSection) {
     return new IntersectionObserver(revealSection.bind(this), {
       root: null,
@@ -82,6 +114,10 @@ export default class EffectView {
     });
   }
 
+  /**
+    Callback function for revealing sections when they intersect
+    @param {IntersectionObserverEntry[]} entries - Array of intersection observer entries
+  */
   _revealSection(entries) {
     const [entry] = entries;
 
@@ -99,24 +135,38 @@ export default class EffectView {
     });
   }
 
+  /**
+   * Initializes the blur effect in the hero section
+   */
   showBlur() {
     this._obsHero();
   }
 
-  // Random letters on load
+  /**
+   * Shows random letters effect on page load
+   */
+
   showRdmLettersOnLoad() {
     window.addEventListener("load", () => this._randomEffect());
   }
 
-  // Random letters on mouseover
+  /**
+   * Shows random letters effect on mouseover
+   */
   showRdmLettersMouseOver() {
     document.querySelector(".hack").onmouseover = () => this._randomEffect();
   }
 
+  /**
+   * Adds click event listener to the navigation menu for active item behavior
+   */
   showActiveMenu() {
     this._nav.addEventListener("click", this._activeMenuItem.bind(this));
   }
 
+  /**
+   * Observes all sections and activates menu item when they intersect
+   */
   showActiveMenuScroll() {
     const allSections = document.querySelectorAll(".section");
     const sectionObserver = this._sectionObserver(this._revealSection);
@@ -125,70 +175,84 @@ export default class EffectView {
     });
   }
 
+  /**
+   * Observes the header for intersection and applies sticky navigation behavior
+   */
   showStickyNav() {
     const observer = this._headerObserver(this._stickyNav);
     observer.observe(hero);
   }
 
+  /**
+   * Muestra el efecto de tipografía.
+   */
   showDataType() {
-    class TxtType {
-      constructor(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = "";
-        this.tick();
-        this.isDeleting = false;
-      }
-      tick() {
-        const i = this.loopNum % this.toRotate.length;
-        const fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-          this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-          this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
-
-        const that = this;
-        let delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) {
-          delta /= 2;
-        }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-          delta = this.period;
-          this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === "") {
-          this.isDeleting = false;
-          this.loopNum++;
-          delta = 500;
-        }
-
-        setTimeout(function () {
-          that.tick();
-        }, delta);
-      }
-    }
-
-    window.onload = function () {
+    window.onload = () => {
       const elements = document.getElementsByClassName("typewrite");
       for (let i = 0; i < elements.length; i++) {
         const toRotate = elements[i].getAttribute("data-type");
         const period = elements[i].getAttribute("data-period");
         if (toRotate) {
-          new TxtType(elements[i], JSON.parse(toRotate), period);
+          this._applyTypewriteEffect(elements[i], JSON.parse(toRotate), period);
         }
       }
-      // INJECT CSS
-      const css = document.createElement("style");
-      css.type = "text/css";
-      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-      document.body.appendChild(css);
+      this._injectCSS();
     };
+  }
+
+  /**
+   * Aplica el efecto de tipografía a un elemento específico.
+   * @param {HTMLElement} el - El elemento HTML donde se aplicará el efecto.
+   * @param {Array} toRotate - Arreglo de textos a rotar.
+   * @param {number} period - Período de tiempo entre cambios de texto.
+   * @private
+   */
+  _applyTypewriteEffect(el, toRotate, period) {
+    let loopNum = 0;
+    let txt = "";
+    let isDeleting = false;
+
+    const tick = () => {
+      const i = loopNum % toRotate.length;
+      const fullTxt = toRotate[i];
+
+      if (isDeleting) {
+        txt = fullTxt.substring(0, txt.length - 1);
+      } else {
+        txt = fullTxt.substring(0, txt.length + 1);
+      }
+
+      el.innerHTML = '<span class="wrap">' + txt + "</span>";
+
+      let delta = 200 - Math.random() * 100;
+
+      if (isDeleting) {
+        delta /= 2;
+      }
+
+      if (!isDeleting && txt === fullTxt) {
+        delta = period;
+        isDeleting = true;
+      } else if (isDeleting && txt === "") {
+        isDeleting = false;
+        loopNum++;
+        delta = 500;
+      }
+
+      setTimeout(tick, delta);
+    };
+
+    tick();
+  }
+
+  /**
+   * Inyecta la hoja de estilos CSS necesaria para el efecto de tipografía.
+   * @private
+   */
+  _injectCSS() {
+    const css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
   }
 }

@@ -1,8 +1,16 @@
 import View from "./View.js";
 
 class FormationView extends View {
+  /**
+   * Class representing the view of the formation section.
+   */
   _parentElement = document.querySelector(".formation");
 
+  /**
+   * Generates the markup for a formation section.
+   * @param {Object} item - Object containing the information for the formation section.
+   * @returns {string} - The generated markup.
+   */
   _generateSection(item) {
     return `
     ${item.titulation
@@ -29,6 +37,10 @@ class FormationView extends View {
     `;
   }
 
+  /**
+   * Generates the complete markup for the formation view.
+   * @returns {string} - The generated markup.
+   */
   _generateMarkup() {
     return `
       <div class="bg-white">
