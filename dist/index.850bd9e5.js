@@ -577,8 +577,8 @@ var _formViewJs = require("./views/formView.js");
 var _formViewJsDefault = parcelHelpers.interopDefault(_formViewJs);
 const init = function() {
     const view = new (0, _effectViewJsDefault.default)();
-    view.showRdmLettersOnLoad();
-    view.showRdmLettersMouseOver();
+    // view.showRdmLettersOnLoad();
+    // view.showRdmLettersMouseOver();
     view.showBlur();
     view.showDataType();
     view.showStickyNav();

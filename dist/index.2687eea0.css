@@ -72,13 +72,11 @@ body {
 }
 
 #hero h1, h2 {
-  font-size: 3rem;
   font-weight: bold;
 }
 
 #hero h1 {
   margin-bottom: .5em;
-  font-size: 4rem;
 }
 
 #about {
@@ -241,8 +239,7 @@ body {
   background-color: var(--secondary-color);
 }
 
-.project-title {
-  content: "Forkify";
+.element-title {
   -webkit-user-select: none;
   user-select: none;
   color: var(--primary-color);
@@ -258,19 +255,19 @@ body {
 }
 
 @media (width <= 990px) {
-  .project-title {
+  .element-title {
     top: 45%;
   }
 }
 
 @media (width <= 768px) {
-  .project-title {
+  .element-title {
     top: 50%;
   }
 }
 
 @media (width <= 576px) {
-  .project-title {
+  .element-title {
     top: 55%;
   }
 }

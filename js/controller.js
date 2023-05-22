@@ -18,8 +18,8 @@ import formView from "./views/formView.js";
 
 const init = function () {
   const view = new EffectView();
-  view.showRdmLettersOnLoad();
-  view.showRdmLettersMouseOver();
+  // view.showRdmLettersOnLoad();
+  // view.showRdmLettersMouseOver();
   view.showBlur();
   view.showDataType();
   view.showStickyNav();

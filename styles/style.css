@@ -91,12 +91,10 @@ body {
 
 #hero h1,
 h2 {
-  font-size: 3rem;
   font-weight: bold;
 }
 
 #hero h1 {
-  font-size: 4rem;
   margin-bottom: 0.5em;
 }
 
@@ -263,8 +261,7 @@ h2 {
   background-color: var(--secondary-color);
 }
 
-.project-title {
-  content: "Forkify";
+.element-title {
   user-select: none;
   display: inline-block;
   font-size: 3rem;
@@ -278,20 +275,35 @@ h2 {
   z-index: 1;
 }
 
+/* .project-title {
+  content: "Forkify";
+  user-select: none;
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  position: absolute;
+  left: 50%;
+  margin-left: -70px;
+  top: 55%;
+  margin-top: -70px;
+  z-index: 1;
+} */
+
 @media (max-width: 990px) {
-  .project-title {
+  .element-title {
     top: 45%;
   }
 }
 
 @media (max-width: 768px) {
-  .project-title {
+  .element-title {
     top: 50%;
   }
 }
 
 @media (max-width: 576px) {
-  .project-title {
+  .element-title {
     top: 55%;
   }
 }
