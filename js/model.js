@@ -187,3 +187,70 @@ export const formationItems = [
 export const submitForm = function (formData) {
   return formData;
 };
+
+export const contactForm = {
+  title: "Enviame un mensaje",
+  items: [
+    {
+      id: "name",
+      name: "name",
+      placeholder: "Nombre",
+      for: "name",
+      label: "Nombre",
+    },
+    {
+      id: "email",
+      name: "email",
+      placeholder: "Email",
+      for: "email",
+      label: "Email",
+    },
+
+    {
+      id: "subject",
+      name: "subject",
+      placeholder: "Asunto",
+      for: "subject",
+      label: "Asunto",
+    },
+
+    {
+      id: "message",
+      name: "message",
+      placeholder: "Mensaje",
+      for: "message",
+      label: "Mensaje",
+    },
+  ],
+};
+
+export const contactWays = {
+  title: "Ponte en contacto",
+  text: "Estos los los actuales canales en los que puedes contacta conmigo.",
+  items: [
+    {
+      src: "assets/logos/linkedin.svg",
+      name: "Linkedin:",
+      href: "https://www.linkedin.com/in/jalbertodelgado/",
+      content: "J.Alberto Delgado",
+    },
+    {
+      src: "assets/logos/envelope-at.svg",
+      name: "Email:",
+      href: "mailto:josealbdr@gmail.com",
+      content: "josealbdr@gmail.com",
+    },
+    {
+      src: "assets/logos/globe-europe-africa.svg",
+      name: "Website:",
+      href: "https://jadelgadorobles.com/",
+      content: "Portfolio",
+    },
+    {
+      src: "assets/logos/github.svg",
+      name: "GitHub:",
+      href: "https://github.com/JoseAlbDR",
+      content: "MyGit",
+    },
+  ],
+};
