@@ -6,6 +6,26 @@ class ProjectView extends View {
    */
   _parentElement = document.querySelector(".projects-container");
 
+  _generateButtonsMarkup(item) {
+    return `
+      <a
+        href="${item.url}"
+        target="_blank"
+        ><button
+          type="button"
+          class="btn btn-sm btn-outline-secondary me-3"
+        >
+          <img
+            src="${item.src}"
+            class="img-fluid"
+            alt="${item.alt}"
+          />
+          ${item.name}
+        </button>
+      </a>
+    
+    `;
+  }
   /**
    * Generates the markup for a project element.
    * @param {object} element - The project element object.
@@ -22,6 +42,7 @@ class ProjectView extends View {
             width="100%"
             height="225"
             src="${element.thumbnail}"
+            alt="${element.alt}"
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           />
@@ -37,35 +58,9 @@ class ProjectView extends View {
             class="d-flex justify-content-between align-items-center"
           >
             <div class="btn-group">
-              <!-- Linkedin -->
-              <a
-                href="${element.gitHubUrl}"
-                target="_blank"
-                ><button
-                  type="button"
-                  class="btn btn-sm btn-outline-secondary"
-                >
-                  <img
-                    src="assets/logos/github.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  GitHub
-                </button>
-              </a>
-              <a href="${element.netlifyUrl}" target="_blank"
-                ><button
-                  type="button"
-                  class="btn btn-sm btn-outline-secondary ms-2"
-                >
-                  <img
-                    src="assets/logos/browser-chrome.svg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  Web
-                </button>
-              </a>
+            ${element.buttons
+              .map((btn) => this._generateButtonsMarkup(btn))
+              .join("")}
             </div>
           </div>
         </div>

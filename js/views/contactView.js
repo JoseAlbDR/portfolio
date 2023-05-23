@@ -14,7 +14,7 @@ class ContactView extends View {
             height="35px"
             width="20px"
             class="img-fluid mb-3 me-3"
-            alt=""
+            alt="${item.alt}"
           />
         </div>
         <div class="text pl-3">

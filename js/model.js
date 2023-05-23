@@ -3,25 +3,63 @@ export const projectItems = [
   {
     name: "Forkify",
     text: "Web APP en la que puedes buscar recetas y guardar tus favoritas. Las recetas se obtienen llamando a una API externa.",
-    gitHubUrl: "https://github.com/JoseAlbDR/forkify",
-    netlifyUrl: "https://forkify-jadr.netlify.app",
     thumbnail: "./assets/thumbnail/forkify.png",
+    alt: "forkify",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github forkify",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/forkify",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web forkify netlify",
+        name: "Web",
+        url: "https://forkify-jadr.netlify.app",
+      },
+    ],
   },
   {
     name: "Bankist",
     text: "Pagina que muestra algunos efectos que se pueden obtener con javascript usando addEventListener e intersectionObserver.",
-    gitHubUrl:
-      "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/13-Advanced-DOM-Bankist",
-    netlifyUrl: "https://bankist-jadr.netlify.app",
     thumbnail: "./assets/thumbnail/bankist.png",
+    alt: "bankist",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github bankist",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/13-Advanced-DOM-Bankist",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web bankist netlify",
+        name: "Web",
+        url: "https://bankist-jadr.netlify.app",
+      },
+    ],
   },
   {
     name: "Mapty",
     text: "Web APP en la que podemos añadir marcadores de ejercicio a un mapa. El mapa semuestra consumiendo una API externa.",
-    gitHubUrl:
-      "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/15-Mapty",
-    netlifyUrl: "https://mapty-jadr.netlify.app",
     thumbnail: "./assets/thumbnail/mapty.png",
+    alt: "mapty",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github mapty",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/15-Mapty",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web mapty netlify",
+        name: "Web",
+        url: "https://mapty-jadr.netlify.app",
+      },
+    ],
   },
 ];
 
@@ -92,10 +130,12 @@ export const footerItems = [
     social: [
       {
         href: "https://github.com/JoseAlbDR/",
+        alt: "github alberto delgado",
         src: "assets/logos/github.svg",
       },
       {
         href: "https://www.linkedin.com/in/jalbertodelgado/",
+        alt: "linkedin alberto delgado",
         src: "assets/logos/linkedin.svg",
       },
     ],
@@ -230,24 +270,28 @@ export const contactWays = {
   items: [
     {
       src: "assets/logos/linkedin.svg",
+      alt: "linkedin alberto delgado",
       name: "Linkedin:",
       href: "https://www.linkedin.com/in/jalbertodelgado/",
       content: "J.Alberto Delgado",
     },
     {
       src: "assets/logos/envelope-at.svg",
+      alt: "envelope",
       name: "Email:",
       href: "mailto:josealbdr@gmail.com",
       content: "josealbdr@gmail.com",
     },
     {
       src: "assets/logos/globe-europe-africa.svg",
+      alt: "world",
       name: "Website:",
       href: "https://jadelgadorobles.com/",
       content: "Portfolio",
     },
     {
       src: "assets/logos/github.svg",
+      alt: "github alberto delgado",
       name: "GitHub:",
       href: "https://github.com/JoseAlbDR",
       content: "MyGit",
