@@ -33,40 +33,41 @@ class ProjectView extends View {
    */
   _generateElementMarkup(element) {
     return `
-    <div class="portfolio col">
-      <p class="element-title">${element.name}</p>
-      <div class="card shadow-sm">
-        <div class="card-img">
-          <img
-            class="bd-placeholder-img card-img-top"
-            width="100%"
-            height="225"
-            src="${element.thumbnail}"
-            alt="${element.alt}"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          />
-        </div>
-        <title>${element.name}</title>
-        <rect width="100%" height="100%" fill="#55595c"></rect>
 
-        <div class="card-body">
-          <p class="card-text">
-            ${element.text}
-          </p>
-          <div
-            class="d-flex justify-content-between align-items-center"
-          >
-            <div class="btn-group">
-            ${element.buttons
-              .map((btn) => this._generateButtonsMarkup(btn))
-              .join("")}
+      <div class="portfolio col d-flex">
+        <p class="element-title">${element.name}</p>
+        <div class="card shadow-sm">
+          <div class="card-img">
+            <img
+              class="bd-placeholder-img card-img-top"
+              width="100%"
+              height="225"
+              src="${element.thumbnail}"
+              alt="${element.alt}"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+          </div>
+          <title>${element.name}</title>
+          <rect width="100%" height="100%" fill="#55595c"></rect>
+
+          <div class="card-body d-flex flex-column justify-content-between">
+            <p class="card-text align-self-stretch">
+              ${element.text}
+            </p>
+            <div
+              class="d-flex justify-content-between align-items-center"
+            >
+              <div class="btn-group">
+              ${element.buttons
+                .map((btn) => this._generateButtonsMarkup(btn))
+                .join("")}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  
+    
   `;
   }
 }

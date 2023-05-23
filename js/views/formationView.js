@@ -16,7 +16,7 @@ class FormationView extends View {
     ${item.titulation
       .map((element) => {
         return `
-    <div class="col-lg-6">
+    <div class="col-lg-6 ">
       <h3 class="resume-title">${item.name}</h3>
       <div class="resume-item">
       
@@ -45,7 +45,7 @@ class FormationView extends View {
     return `
       <div class="bg-white">
         <div class="container py-5 px-4">
-          <div class="section-title mt-5">
+          <div class="section-title mt-5 section section-hidden">
             <h1 class="hero-text display-5 fw-bold lh-1 mb-3 lh-base">
               ${this._data[0].resumen.title
                 .split(" ")
