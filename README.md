@@ -1,30 +1,31 @@
 # Personal Portfolio
 
-Este es el repositorio de mi landing page personal, que sirve como una forma de presentarme, mostrar mi trabajo, mis proyectos y mi formación. Actualmente soy estudiante de desarrollo web fullstack.
+This is the repository for my personal landing page, which serves as a way to introduce myself, showcase my work, projects, and education. Currently, I am a full-stack web development student.
 
-## Tecnologías Utilizadas 🚀
+## Technologies Used 🚀
 
-El proyecto está principalmente desarrollado utilizando HTML, CSS y JavaScript. La versión final del proyecto utiliza Parcel como gestor de paquetes.
+The project is primarily developed using HTML, CSS, and JavaScript. The final version of the project utilizes Parcel as the package manager.
 
-## Instalación ⚙️
+## Installation ⚙️
 
-Puedes ver la página web final en el directorio `dist`. Si prefieres no utilizar el directorio `dist`, debes usar Parcel y los scripts que se encuentran en el archivo `package.json`.
+You can view the final web page in the `dist` directory. If you prefer not to use the `dist` directory, you need to use Parcel and the scripts found in the `package.json` file.
 
-## Uso 🖥️
+## Usage 🖥️
 
-Esta es una landing page sin funcionalidades complejas, pero cuenta con animaciones. Puedes hacer scroll o utilizar el menú de navegación para moverte por la página. También encontrarás enlaces a mis perfiles de redes sociales, información de contacto y proyectos.
+This is a landing page without complex functionalities, but it includes animations. You can scroll or use the navigation menu to move through the page. You will also find links to my social media profiles, contact information, and projects.
 
-## Características ✨
+## Features ✨
 
-- Uso de JavaScript para mostrar dinámicamente el contenido de algunas secciones HTML, siguiendo una arquitectura MVC.
-- Implementación de efectos visuales utilizando CSS.
+- Use of JavaScript to dynamically display the content of some HTML sections, following an MVC architecture.
+- Implementation of visual effects using CSS.
 
-## Contacto 📩
+## Contact 📩
 
-Puedes contactarme a través de [LinkedIn](https://www.linkedin.com/in/jalbertodelgado/).
+You can reach me through [LinkedIn](https://www.linkedin.com/in/jalbertodelgado/).
 
-## Estado del Proyecto 📋
+## Project Status 📋
 
-Versión 1.0 beta
+Version 1.0 beta
 
-¡Gracias y buena suerte con tu portfolio! Si tienes alguna otra pregunta, no dudes en preguntar.
+Thank you and good luck with your portfolio! If you have any further questions, feel free to ask.
+
