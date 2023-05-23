@@ -68,8 +68,13 @@ export default class EffectView {
    */
   _stickyNav(entries) {
     const [entry] = entries;
-    if (!entry.isIntersecting) this._nav.classList.add("sticky");
-    else this._nav.classList.remove("sticky");
+    if (!entry.isIntersecting) {
+      this._nav.classList.add("sticky");
+      this._nav.classList.add("shadow");
+    } else {
+      this._nav.classList.remove("sticky");
+      this._nav.classList.remove("shadow");
+    }
   }
 
   /**
