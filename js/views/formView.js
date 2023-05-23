@@ -66,35 +66,6 @@ class FormView extends View {
     `;
   }
 
-  _generateContactMarkup(item) {
-    return `
-    <div class="dbox w-100 d-flex align-items-center mb-5 fs-2">
-      <div
-        class="icon d-flex align-items-center justify-content-center"
-      >
-        <img
-          src="${item.src}"
-          height="35px"
-          width="20px"
-          class="img-fluid mb-3 me-3"
-          alt=""
-        />
-      </div>
-      <div class="text pl-3">
-        <p>
-          <span>${item.name}</span>
-          <a
-            href="${item.href}"
-            target="_blank"
-            >${item.content}</a
-          >
-        </p>
-      </div>
-    </div>
-    
-    `;
-  }
-
   getData(data) {
     this._contactData = data;
     console.log(data);

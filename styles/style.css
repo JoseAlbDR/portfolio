@@ -279,7 +279,7 @@ h2 {
   color: var(--primary-color);
   position: absolute;
   left: 50%;
-  margin-left: -70px;
+  margin-left: -100px;
   top: 55%;
   margin-top: -70px;
   z-index: 1;

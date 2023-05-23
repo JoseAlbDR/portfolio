@@ -61,6 +61,69 @@ export const projectItems = [
       },
     ],
   },
+  {
+    name: "BankAPP",
+    text: "Web APP en la que podemos hacer operaciones simples relacinadas con cuentas bancarias. Instrucciones en el repositorio.",
+    thumbnail: "./assets/thumbnail/bankistapp.png",
+    alt: "bankapp",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github bankapp",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/12-Numbers-Dates-Timers-Bankist/starter",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web bankapp netlify",
+        name: "Web",
+        url: "https://bankist-app-jadr.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "PigGame",
+    text: "Web APP simple en la que podemos jugar a un juego de dados muy simple.",
+    thumbnail: "./assets/thumbnail/piggame.png",
+    alt: "piggame",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github piggame",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/07-Pig-Game/starter",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web piggame netlify",
+        name: "Web",
+        url: "https://piggame-jadr.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "GuessIt",
+    text: "Web APP simple en la que tendremos que adivinar un numero entre 1 y 20.",
+    thumbnail: "./assets/thumbnail/guessit.png",
+    alt: "guess number",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github guess number",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/05-Guess-My-Number/starter",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web guess number netlify",
+        name: "Web",
+        url: "https://guessnumber-jadr.netlify.app/",
+      },
+    ],
+  },
 ];
 
 // Object to save menu items
