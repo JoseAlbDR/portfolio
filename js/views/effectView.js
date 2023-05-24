@@ -22,6 +22,7 @@ export default class EffectView {
       if (iterations >= event.dataset.value.length) clearInterval(interval);
       iterations += 1 / 3;
     }, 50);
+    event.textContent = event.dataset.value;
   }
 
   /**
@@ -73,7 +74,7 @@ export default class EffectView {
       this._nav.classList.add("shadow");
     } else {
       this._nav.classList.remove("sticky");
-      this._nav.classList.remove - "shadow";
+      this._nav.classList.remove("shadow");
     }
   }
 
