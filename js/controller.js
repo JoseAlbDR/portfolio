@@ -29,10 +29,16 @@ formationView.render(model.formationItems);
 formView.getData(model.contactWays);
 formView.render(model.contactForm);
 
-const controlSubmitForm = function (formData) {
-  const data = submitForm(model.formData);
-  formView.clearForm();
-  formView.successMsg();
+const controlSubmitForm = async function (formData) {
+  try {
+    await model.submitForm(formData);
+
+    formView.clearForm();
+    formView.successMsg();
+  } catch (error) {
+    console.error(error);
+    formView.errorMsg(error);
+  }
 };
 
 formView.addHandlerSubmit(controlSubmitForm);

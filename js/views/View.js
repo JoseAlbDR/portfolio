@@ -13,10 +13,8 @@ export default class View {
 
     const markup = this._generateMarkup();
     this._clearParent();
-    console.log(this._parentElement);
 
     this._parentElement.insertAdjacentHTML(insert, markup);
-    console.log(this._parentElement);
   }
 
   /**

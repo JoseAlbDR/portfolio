@@ -68,7 +68,6 @@ class FormView extends View {
 
   getData(data) {
     this._contactData = data;
-    console.log(data);
   }
   _generateMarkup() {
     const data = this._data;

@@ -73,7 +73,7 @@ export default class EffectView {
       this._nav.classList.add("shadow");
     } else {
       this._nav.classList.remove("sticky");
-      this._nav.classList.remove("shadow");
+      this._nav.classList.remove - "shadow";
     }
   }
 

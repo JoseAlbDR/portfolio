@@ -287,8 +287,12 @@ export const formationItems = [
  * @param {*} formData
  * @returns
  */
-export const submitForm = function (formData) {
-  return formData;
+export const submitForm = async function (formData) {
+  try {
+    this._sendMail(formData);
+  } catch (error) {
+    throw error;
+  }
 };
 
 export const contactForm = {
