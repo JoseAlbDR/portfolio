@@ -224,22 +224,37 @@ h2 {
 
 .btn {
   transition: all 0.5s;
-  border: 3px solid var(--primary-color);
-}
-
-.btn:hover {
-  background-color: var(--primary-color);
-  transform: translateY(-0.2rem);
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .btn img {
   transition: all 0.5s;
 }
 
-.btn:hover img {
+#portfolio button {
+  border: 3px solid var(--primary-color);
+  /* transition: all 0.4s ease; */
+}
+
+#portfolio button:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-0.2rem);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#portfolio button:hover img {
+  /* transition: all 0.4s ease; */
+}
+
+#portfolio button:hover img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg)
     brightness(105%) contrast(103%);
+}
+
+#portfolio button:active {
+  transform: translateY(0px);
+  box-shadow: none;
 }
 
 #portfolio p.lead {
