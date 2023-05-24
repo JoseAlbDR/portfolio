@@ -263,6 +263,8 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1.5rem;
   row-gap: 2rem;
+  justify-content: center;
+  justify-items: center;
 }
 
 @media (max-width: 992px) {
@@ -271,7 +273,7 @@ h2 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .d-grid {
     grid-template-columns: auto;
   }
