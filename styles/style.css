@@ -63,6 +63,7 @@ body {
   background: url("../assets/img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
+  top: 0;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,6 +93,7 @@ body {
 @media (orientation: landscape) {
   #hero {
     padding-top: 7rem;
+    font-size: 1rem;
   }
 
   #hero .container {
