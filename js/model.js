@@ -51,7 +51,7 @@ export const projectItems = [
         src: "assets/logos/github.svg",
         alt: "github mapty",
         name: "GitHub",
-        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/15-Mapty",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/15-Mapty/starter",
       },
       {
         src: "assets/logos/globe-europe-africa.svg",
@@ -79,6 +79,27 @@ export const projectItems = [
         alt: "web bankapp netlify",
         name: "Web",
         url: "https://bankist-app-jadr.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "Simon",
+    text: "Web APP en la que podemos jugar al Simon dice con colores y sonidos. Guarda los usuarios y la puntuacion máxima.",
+    thumbnail: "./assets/thumbnail/simon.png",
+    alt: "simon",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github piggame",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/simongame",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web piggame netlify",
+        name: "Web",
+        url: "https://jadr-simon.netlify.app/",
       },
     ],
   },
