@@ -314,7 +314,7 @@ h2 {
 .card-text {
   font-size: 1rem;
   line-height: 1.5em;
-  padding-top: 1.5rem;
+  /* padding-top: 1rem; */
   padding-bottom: 1rem;
 }
 
@@ -331,7 +331,7 @@ h2 {
   background-color: var(--secondary-color);
 }
 
-.element-title {
+/* .element-title {
   user-select: none;
   display: inline-block;
   font-size: 3rem;
@@ -343,7 +343,7 @@ h2 {
   top: 55%;
   margin-top: -70px;
   z-index: 1;
-}
+} */
 
 /* .project-title {
   content: "Forkify";

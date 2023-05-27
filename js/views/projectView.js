@@ -35,7 +35,6 @@ class ProjectView extends View {
     return `
 
       <div class="portfolio col d-flex">
-        <p class="element-title">${element.name}</p>
         <div class="card shadow-sm">
           <div class="card-img">
             <img
@@ -52,6 +51,7 @@ class ProjectView extends View {
           <rect width="100%" height="100%" fill="#55595c"></rect>
 
           <div class="card-body d-flex flex-column justify-content-between">
+          <h4 class="card-title">${element.name}</h4>
             <p class="card-text align-self-stretch">
               ${element.text}
             </p>
