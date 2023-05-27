@@ -30,7 +30,7 @@ export const projectItems = [
         src: "assets/logos/github.svg",
         alt: "github bankist",
         name: "GitHub",
-        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/13-Advanced-DOM-Bankist",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/13-Advanced-DOM-Bankist/starter",
       },
       {
         src: "assets/logos/globe-europe-africa.svg",
@@ -100,6 +100,27 @@ export const projectItems = [
         alt: "web piggame netlify",
         name: "Web",
         url: "https://jadr-simon.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "Newsletter",
+    text: "Web APP en la que podemos registrarnos en una Newsletter con alojamiento en Mailchimp",
+    thumbnail: "./assets/thumbnail/newsletter.png",
+    alt: "newsletter",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github piggame",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/newsletter",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web piggame herocku",
+        name: "Web",
+        url: "jadr-newsletter.herokuapp.com/",
       },
     ],
   },
