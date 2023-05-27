@@ -1,4 +1,4 @@
-7791
+7797
 131C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\regenerator-runtime\README.md133292299543962787 0
 135C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\weak-lru-cache\tests\benchmark.js133292299542781116 0
 115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\source-map-js133292299547144110 1
@@ -16,7 +16,16 @@
 147C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\calendar-month-fill.svg133292299555093131 0
 163C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\packages\source-alias133292299552591744 1
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\ethernet.svg133292299558244191 0
-93C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist133294303059875308 1
+93C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist133296985361041495 1
+133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\plugins\removeEmptyText.js133292299549534026 0
+154C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\lib\parser\SyntaxError.js133292299554282025 0
+179C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeUnknownsAndDefaults.js133292299550341865 0
+110C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\bin133292299542541749 1
+147C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133292299542511831 0
+132C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\cjs\replace\Dimension.cjs133292299547722559 0
+112C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-select133292299550751683 1
+120C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\lmdb\src\lmdb-js.h133292299552001720 0
+96C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\.vscode133295247408175429 1
 125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-image133292299552601721 1
 130C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\plugins\cleanupAttrs.js133292299546134361 0
 139C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\dice-1-fill.svg133292299557464694 0
@@ -126,7 +135,7 @@
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\collection-play.svg133292299556944532 0
 123C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@trysound\sax\LICENSE133292299542109840 0
 137C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\type-fest\source\tsconfig-json.d.ts133292299549043625 0
-106C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos133294303035747440 1
+106C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos133296985345752392 1
 177C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEditorsNSData.js133292299549663687 0
 113C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\cosmiconfig133292299548552819 1
 193C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\sub\b\index.js133292299549743466 0
@@ -167,8 +176,8 @@
 140C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\speedometer2.svg133292299563334168 0
 138C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\lib\replace\atrule\keyframes.js133292299551331714 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\fs\src\NodeFS.browser.js133292299545691578 0
-121C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\lib\builtin.js133292299545993276 0
 142C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\envelope-check.svg133292299557994866 0
+121C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\lib\builtin.js133292299545993276 0
 108C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\braces133292299544472451 1
 108C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@lezer133292299532052438 1
 133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\caniuse-lite\data\regions\GT.js133292299555393868 0
@@ -288,14 +297,6 @@
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\runtime-service-worker\src133292299543093577 1
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\term-size\vendor\macos\.DS_Store133292299542791958 0
 111C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\commander133292299545621016 1
-133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\plugins\removeEmptyText.js133292299549534026 0
-154C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\lib\parser\SyntaxError.js133292299554282025 0
-179C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeUnknownsAndDefaults.js133292299550341865 0
-110C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\bin133292299542541749 1
-147C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\lmdb\node_modules\node-addon-api\node_api.gyp133292299542511831 0
-132C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\cjs\replace\Dimension.cjs133292299547722559 0
-112C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-select133292299550751683 1
-120C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\lmdb\src\lmdb-js.h133292299552001720 0
 127C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\node-addon-api\napi-inl.h133292299545721497 0
 141C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\markdown-fill.svg133292299561035567 0
 131C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\svgo\plugins\removeViewBox.js133292299550222187 0
@@ -328,7 +329,7 @@
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\workers\lib\threads\ThreadsWorker.js133292299548913978 0
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\type-fest\source\package-json.d.ts133292299548052477 0
 156C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-select\node_modules\domutils\lib\esm\querying.d.ts133292299550371794 0
-129C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Python-logo-notext.svg133294303035477369 0
+129C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Python-logo-notext.svg133296985345513026 0
 156C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\parser.js133292299548963841 0
 116C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\domelementtype133292299545461446 1
 176C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\walk.js133292299552771270 0
@@ -2227,7 +2228,7 @@
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-tree\lib\utils\create-custom-error.js133292299553131989 0
 154C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\arrow-up-right-circle-fill.svg133292299552432177 0
 173C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\index.js133292299543472566 0
-104C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\img133294303035437471 1
+104C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\img133296985345353451 1
 139C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\plus-circle.svg133292299562005025 0
 172C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\LICENSE133292299542169683 0
 133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\caniuse-lite\data\regions\MR.js133292299556673758 0
@@ -2306,6 +2307,7 @@
 168C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts.map133292299546214149 0
 170C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist\csstree.min.js133292299549223145 0
 137C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\broadcast.svg133292299554662622 0
+111C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.8099ce90.js133296985360971687 0
 164C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\sort.js133292299546293933 0
 142C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\envelope-heart.svg133292299558044734 0
 114C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\mdn-data\api133292299546672922 1
@@ -3262,7 +3264,7 @@
 157C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\lib\tokenizer\TokenStream.js133292299554312770 0
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building-fill-x.svg133292299554842993 0
 151C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\lib\tokenizer\types.js133292299554342695 0
-116C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.1bf6c40d.css.map133294303059875308 0
+116C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.1bf6c40d.css.map133296985361001610 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-tree\cjs\tokenizer\names.cjs133292299551551133 0
 138C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\easel-fill.svg133292299557704058 0
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\lib\syntax\atrule133292299554262077 1
@@ -3484,7 +3486,7 @@
 152C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.js.map133292299550112483 0
 137C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-diff.svg133292299558604883 0
 169C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index-parse-selector.cjs133292299550022719 0
-114C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\hero-bg.09fd5523.jpg133294303047828802 0
+114C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\hero-bg.09fd5523.jpg133296985358169175 0
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-lock2-fill.svg133292299559145190 0
 163C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaQueryList.cjs133292299551202062 0
 155C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Number.cjs133292299551411501 0
@@ -3500,7 +3502,7 @@
 138C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\caniuse-lite\data\features\mathml.js133292299556414447 0
 154C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Ratio.cjs133292299551841239 0
 157C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Selector.cjs133292299551951858 0
-130C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\globe-europe-africa.svg133294303035676846 0
+130C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\globe-europe-africa.svg133296985345632707 0
 161C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\node\SelectorList.cjs133292299552001720 0
 133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\caniuse-lite\data\regions\JO.js133292299555973855 0
 141C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\filetype-xlsx.svg133292299559645269 0
@@ -3752,7 +3754,7 @@
 135C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@swc\helpers\lib\_create_super.js133292299549083520 0
 145C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\person-vcard-fill.svg133292299561785611 0
 140C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-tree\lib\syntax\node\Percentage.js133292299554172318 0
-115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\linkedin.b4b2ef0a.svg133294303047818832 0
+115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\linkedin.b4b2ef0a.svg133296985358169175 0
 159C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\caniuse-lite\data\features\css-font-rendering-controls.js133292299553302287 0
 151C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\emoji-smile-upside-down.svg133292299557915074 0
 149C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-tree\lib\syntax\node\PseudoClassSelector.js133292299554192264 0
@@ -4225,6 +4227,7 @@
 135C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\boombox.svg133292299554062613 0
 142C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\bus-front-fill.svg133292299554943541 0
 137C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-select\lib\esm\pseudo-selectors133292299551541155 1
+120C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\thumbnail\newsletter.png133296966018407012 0
 176C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\attributes.d.ts.map133292299547114190 0
 139C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\filetype-md.svg133292299559485702 0
 130C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\css-select\lib\esm\sort.d.ts133292299551461366 0
@@ -5314,7 +5317,7 @@
 140C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\border-inner.svg133292299554232158 0
 171C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\syntaxes.schema.json133292299548052477 0
 140C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\border-outer.svg133292299554252107 0
-100C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets133294303035777365 1
+100C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets133296985345762376 1
 152C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\sign-intersection-t-fill.svg133292299562824183 0
 140C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\border-style.svg133292299554272052 0
 142C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\chat-left-fill.svg133292299555863391 0
@@ -5350,7 +5353,7 @@
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building-fill-dash.svg133292299554793114 0
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building-fill-down.svg133292299554803085 0
 153C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building-fill-exclamation.svg133292299554813059 0
-133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\css-3-logo-svgrepo-com.svg133294303035547179 0
+133C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\css-3-logo-svgrepo-com.svg133296985345552924 0
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building-fill-gear.svg133292299554813059 0
 141C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building-lock.svg133292299554872906 0
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\building.svg133292299554903646 0
@@ -5690,6 +5693,7 @@
 131C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\fan.svg133292299558445311 0
 149C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\fast-forward-btn-fill.svg133292299558445311 0
 144C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\fast-forward-btn.svg133292299558455285 0
+115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\thumbnail\simon.png133295245851144031 0
 152C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\fast-forward-circle-fill.svg133292299558465259 0
 147C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\fast-forward-circle.svg133292299558475236 0
 140C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\fast-forward.svg133292299558485205 0
@@ -5718,7 +5722,6 @@
 150C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-code-fill.svg133292299558684672 0
 141C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\utils\test\input\config\.testrc133292299542491888 0
 145C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-code.svg133292299558694644 0
-111C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.ff65d28a.js133294303059754694 0
 145C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-diff.svg133292299558714593 0
 151C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-easel-fill.svg133292299558714593 0
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-easel.svg133292299558724563 0
@@ -5763,6 +5766,7 @@
 149C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-richtext.svg133292299558955697 0
 151C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-ruled-fill.svg133292299558965673 0
 146C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-ruled.svg133292299558975642 0
+110C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\.vscode\settings.json133295247408615350 0
 150C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-text-fill.svg133292299559015532 0
 150C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-word-fill.svg133292299559025509 0
 142C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\file-earmark-x.svg133292299559045454 0
@@ -5933,7 +5937,7 @@
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\heartbreak-fill.svg133292299560264997 0
 149C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133292299542741216 0
 138C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\heartbreak.svg133292299560274970 0
-122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\forkify.png133294303035817256 0
+122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\forkify.png133296985345842154 0
 152C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\reporter-dev-server\src\templates\404.html133292299543213257 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\hearts.svg133292299560274970 0
 141C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\heptagon-fill.svg133292299560285622 0
@@ -6289,7 +6293,7 @@
 182C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\UnicodeRange.js133292299552681506 0
 148C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\sign-merge-left-fill.svg133292299562844126 0
 144C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\sign-merge-right.svg133292299562864074 0
-139C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Unofficial_JavaScript_logo_2.svg133294303035646918 0
+139C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Unofficial_JavaScript_logo_2.svg133296985345612757 0
 145C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\sign-no-left-turn.svg133292299562874048 0
 180C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\a133292299549313808 1
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\bootstrap-icons\icons\sign-no-parking.svg133292299562884703 0
@@ -6662,7 +6666,7 @@
 144C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@swc\helpers\lib\_await_async_generator.js133292299546033169 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@swc\helpers\lib\_await_value.js133292299546194203 0
 150C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@swc\helpers\lib\_check_private_redeclaration.js133292299546343803 0
-105C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\thumbnail133293112827640624 1
+105C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\thumbnail133296965957873872 1
 149C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@swc\helpers\lib\_class_apply_descriptor_get.js133292299546732758 0
 149C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@swc\helpers\lib\_class_apply_descriptor_set.js133292299546883149 0
 174C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\prepare-tokens.js133292299552081507 0
@@ -7019,7 +7023,7 @@
 125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\packager-js\src133292299547592908 1
 144C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\packager-js\src\CJSOutputFormat.js133292299543213257 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\packager-js\src\index.js133292299546894007 0
-125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Bootstrap_logo.svg133294303035467397 0
+125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Bootstrap_logo.svg133296985345393345 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\packager-js\src\utils.js133292299547533069 0
 128C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\cache\lib\index.js133292299545511310 0
 144C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\packager-js\lib\CJSOutputFormat.js133292299542741216 0
@@ -7121,7 +7125,7 @@
 163C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\dist\svgo.browser.js133292299551301798 0
 150C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css133292299548342436 1
 154C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\LICENSE133292299542179657 0
-125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\bankistapp.png133294303035875645 0
+125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\bankistapp.png133296985345872069 0
 156C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\README.md133292299548443120 0
 160C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\l10n\css.json133292299546023196 0
 164C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\at-rules.json133292299545031698 0
@@ -7289,7 +7293,7 @@
 177C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertStyleToAttrs.js133292299547832267 0
 174C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertTransform.js133292299547962713 0
 170C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\inlineStyles.js133292299548433148 0
-122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\guessit.png133294303035845721 0
+122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\guessit.png133296985345862095 0
 168C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\mergePaths.js133292299548582746 0
 169C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\mergeStyles.js133292299548642582 0
 170C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\minifyStyles.js133292299548732340 0
@@ -7591,7 +7595,7 @@
 131C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\constants.js133292299550142400 0
 132C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\Dependency.js133292299550282030 0
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\PackagerRunner.js133292299551871158 0
-113C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\github.cb0b2e3f.svg133294303047818832 0
+113C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\github.cb0b2e3f.svg133296985358169175 0
 134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\ParcelConfig.js133292299552101464 0
 125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\public133292299552992359 1
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\ReporterRunner.js133292299552611692 0
@@ -7599,7 +7603,7 @@
 132C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\serializer.js133292299552771270 0
 136C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\serializerCore.js133292299552871812 0
 138C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\summarizeRequest.js133292299552932517 0
-104C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.html133294303059754694 0
+104C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.html133296985360971687 0
 128C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\worker.js133292299553342181 0
 148C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\requests\AssetGraphRequest.js133292299548332462 0
 143C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\@parcel\core\src\requests\AssetRequest.js133292299548483008 0
@@ -7753,30 +7757,32 @@
 117C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\.bin\terser.ps1133292299565034457 0
 129C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\node_modules\.bin\update-browserslist-db133292299565034457 0
 105C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\controller.js133294183657495015 0
-100C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\model.js133294118677648673 0
+100C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\model.js133296981596638920 0
 110C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\views\aboutView.js133292606087675600 0
 111C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\views\effectView.js133294182961057612 0
 111C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\views\footerView.js133292628648717700 0
 109C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\views\formView.js133294116625804805 0
 105C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\js\views\View.js133294116499200876 0
-112C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.1bf6c40d.css133294303059754694 0
-115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.ff65d28a.js.map133294303059824497 0
-110C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail133294303035865672 1
-122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\bankist.png133294303035787331 0
-120C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\mapty.png133294303035807281 0
-122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\piggame.png133294303035797304 0
-125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\browser-chrome.svg133294303035636946 0
-115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\css3.png133294303035706754 0
-122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\envelope-at.svg133294303035727488 0
-117C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\github.svg133294303035757416 0
-115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\html.png133294303035587079 0
-134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\HTML5_logo_and_wordmark.svg133294303035656889 0
-119C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\linkedin.svg133294303035686812 0
-123C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Node.js_logo.svg133294303035487343 0
-121C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\React-icon.svg133294303035497313 0
-131C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Typescript_logo_2020.svg133294303035616999 0
-118C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\img\about-img.jpg133294303035447451 0
-116C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\img\hero-bg.jpg133294303035427501 0
+112C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.1bf6c40d.css133296985360971687 0
+115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\index.8099ce90.js.map133296985361041495 0
+110C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail133296985345892012 1
+122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\bankist.png133296985345772333 0
+120C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\mapty.png133296985345802252 0
+125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\newsletter.png133296985345882042 0
+122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\piggame.png133296985345792281 0
+120C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\thumbnail\simon.png133296985345892012 0
+125C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\browser-chrome.svg133296985345602787 0
+115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\css3.png133296985345742417 0
+122C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\envelope-at.svg133296985345752392 0
+117C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\github.svg133296985345752392 0
+115C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\html.png133296985345572869 0
+134C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\HTML5_logo_and_wordmark.svg133296985345622729 0
+119C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\linkedin.svg133296985345632707 0
+123C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Node.js_logo.svg133296985345522998 0
+121C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\React-icon.svg133296985345542946 0
+131C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\logos\Typescript_logo_2020.svg133296985345582838 0
+118C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\img\about-img.jpg133296985345363428 0
+116C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\dist\assets\img\hero-bg.jpg133296985345353451 0
 101C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\logos133292522484735128 1
 117C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\thumbnail\bankist.png133293112827630650 0
 117C:\Users\berti\OneDrive\Documentos\Programacion\FULL STACK\WebDevelpmentAngela\Portfolio\assets\thumbnail\piggame.png133293109237305839 0
