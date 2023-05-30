@@ -120,7 +120,7 @@ export const projectItems = [
         src: "assets/logos/globe-europe-africa.svg",
         alt: "web piggame herocku",
         name: "Web",
-        url: "jadr-newsletter.herokuapp.com/",
+        url: "https://jadr-newsletter.herokuapp.com/",
       },
     ],
   },
