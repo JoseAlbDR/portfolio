@@ -38,6 +38,10 @@ body {
   text-align: center;
 }
 
+.navbar-bar {
+  text-align: right;
+}
+
 .navbar img {
   /* background-color: #fff; */
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg)

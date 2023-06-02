@@ -1033,12 +1033,12 @@ const menuItems = [
         name: "Portfolio"
     },
     {
-        href: "https://jadr-blog.herokuapp.com/",
-        name: "Blog"
-    },
-    {
         href: "#contacto",
         name: "Contacto"
+    },
+    {
+        href: "https://jadr-blog.herokuapp.com/",
+        name: "Blog"
     }
 ];
 const techItems = [
@@ -1106,12 +1106,12 @@ const footerItems = [
                 name: "Portfolio"
             },
             {
-                href: "https://jadr-blog.herokuapp.com/",
-                name: "Blog"
-            },
-            {
                 href: "#contacto",
                 name: "Contacto"
+            },
+            {
+                href: "https://jadr-blog.herokuapp.com/",
+                name: "Blog"
             }
         ],
         copyright: "\xa9 2023 J.Alberto Delgado"

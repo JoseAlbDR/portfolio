@@ -187,13 +187,14 @@ export const menuItems = [
     href: "#portfolio",
     name: "Portfolio",
   },
-  {
-    href: "https://jadr-blog.herokuapp.com/",
-    name: "Blog",
-  },
+
   {
     href: "#contacto",
     name: "Contacto",
+  },
+  {
+    href: "https://jadr-blog.herokuapp.com/",
+    name: "Blog",
   },
 ];
 
@@ -266,13 +267,14 @@ export const footerItems = [
         href: "#portfolio",
         name: "Portfolio",
       },
-      {
-        href: "https://jadr-blog.herokuapp.com/",
-        name: "Blog",
-      },
+
       {
         href: "#contacto",
         name: "Contacto",
+      },
+      {
+        href: "https://jadr-blog.herokuapp.com/",
+        name: "Blog",
       },
     ],
     copyright: "© 2023 J.Alberto Delgado",

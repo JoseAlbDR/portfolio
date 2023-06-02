@@ -35,6 +35,10 @@ body {
   font-size: 1.2rem;
 }
 
+.navbar-bar {
+  text-align: right;
+}
+
 .navbar img {
   filter: invert() sepia() saturate(0%) hue-rotate(106deg) brightness(105%) contrast(103%);
 }
