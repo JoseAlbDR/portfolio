@@ -36,6 +36,7 @@ class FooterView extends View {
     <li class="nav-item">
         <a
           href="${item.href}"
+          ${item.name === "Blog" ? "target='_blank'" : ""}
           class="nav-link footer-text fs-5 px-2 hover-underline-animation"
           >${item.name}</a
         >

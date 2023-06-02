@@ -21,22 +21,65 @@ export const projectItems = [
     ],
   },
   {
-    name: "Bankist",
-    text: "Pagina que muestra algunos efectos que se pueden obtener con javascript usando addEventListener e intersectionObserver.",
-    thumbnail: "./assets/thumbnail/bankist.png",
-    alt: "bankist",
+    name: "Simon",
+    text: "Web APP en la que podemos jugar al Simon dice con colores y sonidos. Guarda los usuarios y la puntuacion máxima.",
+    thumbnail: "./assets/thumbnail/simon.png",
+    alt: "simon",
+
     buttons: [
       {
         src: "assets/logos/github.svg",
-        alt: "github bankist",
+        alt: "github piggame",
         name: "GitHub",
-        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/13-Advanced-DOM-Bankist/starter",
+        url: "https://github.com/JoseAlbDR/simongame",
       },
       {
         src: "assets/logos/globe-europe-africa.svg",
-        alt: "web bankist netlify",
+        alt: "web piggame netlify",
         name: "Web",
-        url: "https://bankist-jadr.netlify.app",
+        url: "https://jadr-simon.netlify.app/",
+      },
+    ],
+  },
+  {
+    name: "Blog",
+    text: "Web APP que permite ver y crear entradas de blog alojadas en una base de datos, versión basica que quiero seguir desarrollando.",
+    thumbnail: "./assets/thumbnail/blog.png",
+    alt: "blog",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github blog",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/backendblog",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web blog",
+        name: "Web",
+        url: "https://jadr-blog.herokuapp.com/",
+      },
+    ],
+  },
+  {
+    name: "Lista de Tareas",
+    text: "Web APP que permite crear y borrar listas de tareas personalizadas y agregar y quitar tareas a dichas listas, todo alojado en una base de datos",
+    thumbnail: "./assets/thumbnail/todolist.png",
+    alt: "todo list",
+
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github guess number",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/todolist",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "todo list",
+        name: "Web",
+        url: "https://jadr-todolist.herokuapp.com/",
       },
     ],
   },
@@ -62,44 +105,22 @@ export const projectItems = [
     ],
   },
   {
-    name: "BankAPP",
-    text: "Web APP en la que podemos hacer operaciones simples relacinadas con cuentas bancarias. Instrucciones en el repositorio.",
-    thumbnail: "./assets/thumbnail/bankistapp.png",
-    alt: "bankapp",
-
+    name: "Bankist",
+    text: "Pagina que muestra algunos efectos que se pueden obtener con javascript usando addEventListener e intersectionObserver.",
+    thumbnail: "./assets/thumbnail/bankist.png",
+    alt: "bankist",
     buttons: [
       {
         src: "assets/logos/github.svg",
-        alt: "github bankapp",
+        alt: "github bankist",
         name: "GitHub",
-        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/12-Numbers-Dates-Timers-Bankist/starter",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/13-Advanced-DOM-Bankist/starter",
       },
       {
         src: "assets/logos/globe-europe-africa.svg",
-        alt: "web bankapp netlify",
+        alt: "web bankist netlify",
         name: "Web",
-        url: "https://bankist-app-jadr.netlify.app/",
-      },
-    ],
-  },
-  {
-    name: "Simon",
-    text: "Web APP en la que podemos jugar al Simon dice con colores y sonidos. Guarda los usuarios y la puntuacion máxima.",
-    thumbnail: "./assets/thumbnail/simon.png",
-    alt: "simon",
-
-    buttons: [
-      {
-        src: "assets/logos/github.svg",
-        alt: "github piggame",
-        name: "GitHub",
-        url: "https://github.com/JoseAlbDR/simongame",
-      },
-      {
-        src: "assets/logos/globe-europe-africa.svg",
-        alt: "web piggame netlify",
-        name: "Web",
-        url: "https://jadr-simon.netlify.app/",
+        url: "https://bankist-jadr.netlify.app",
       },
     ],
   },
@@ -124,45 +145,25 @@ export const projectItems = [
       },
     ],
   },
+
   {
-    name: "PigGame",
-    text: "Web APP simple en la que podemos jugar a un juego de dados muy simple.",
-    thumbnail: "./assets/thumbnail/piggame.png",
-    alt: "piggame",
+    name: "BankAPP",
+    text: "Web APP en la que podemos hacer operaciones simples relacinadas con cuentas bancarias. Instrucciones en el repositorio.",
+    thumbnail: "./assets/thumbnail/bankistapp.png",
+    alt: "bankapp",
 
     buttons: [
       {
         src: "assets/logos/github.svg",
-        alt: "github piggame",
+        alt: "github bankapp",
         name: "GitHub",
-        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/07-Pig-Game/starter",
+        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/12-Numbers-Dates-Timers-Bankist/starter",
       },
       {
         src: "assets/logos/globe-europe-africa.svg",
-        alt: "web piggame netlify",
+        alt: "web bankapp netlify",
         name: "Web",
-        url: "https://piggame-jadr.netlify.app/",
-      },
-    ],
-  },
-  {
-    name: "GuessIt",
-    text: "Web APP simple en la que tendremos que adivinar un numero entre 1 y 20.",
-    thumbnail: "./assets/thumbnail/guessit.png",
-    alt: "guess number",
-
-    buttons: [
-      {
-        src: "assets/logos/github.svg",
-        alt: "github guess number",
-        name: "GitHub",
-        url: "https://github.com/JoseAlbDR/completeJavascriptCourse/tree/master/05-Guess-My-Number/starter",
-      },
-      {
-        src: "assets/logos/globe-europe-africa.svg",
-        alt: "web guess number netlify",
-        name: "Web",
-        url: "https://guessnumber-jadr.netlify.app/",
+        url: "https://bankist-app-jadr.netlify.app/",
       },
     ],
   },
@@ -185,6 +186,10 @@ export const menuItems = [
   {
     href: "#portfolio",
     name: "Portfolio",
+  },
+  {
+    href: "https://jadr-blog.herokuapp.com/",
+    name: "Blog",
   },
   {
     href: "#contacto",
@@ -260,6 +265,10 @@ export const footerItems = [
       {
         href: "#portfolio",
         name: "Portfolio",
+      },
+      {
+        href: "https://jadr-blog.herokuapp.com/",
+        name: "Blog",
       },
       {
         href: "#contacto",

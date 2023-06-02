@@ -18,6 +18,7 @@ class MenuView extends View {
         class="nav-link active underline hover-underline-animation"
         aria-current="page"
         href="${element.href}"
+        ${element.name === "Blog" ? "target='_blank'" : ""}
         >${element.name}</a
       >
     </li>
