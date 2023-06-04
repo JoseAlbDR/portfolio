@@ -193,7 +193,7 @@ export const menuItems = [
     name: "Contacto",
   },
   {
-    href: "https://jadr-blog.herokuapp.com/",
+    href: "https://jadr-blog.onrender.com/",
     name: "Blog",
   },
 ];
@@ -273,7 +273,7 @@ export const footerItems = [
         name: "Contacto",
       },
       {
-        href: "https://jadr-blog.herokuapp.com/",
+        href: "https://jadr-blog.onrender.com/",
         name: "Blog",
       },
     ],
