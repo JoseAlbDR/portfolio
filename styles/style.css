@@ -34,7 +34,6 @@ body {
 .navbar a {
   font-size: 1.2rem;
   /* margin-right: 1rem; */
-  min-width: 95px;
   text-align: center;
 }
 
