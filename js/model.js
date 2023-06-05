@@ -1,3 +1,5 @@
+import { PASS } from "../private/config.js";
+
 // Object to save projects
 export const projectItems = [
   {
@@ -340,27 +342,36 @@ export const formationItems = [
  * @param {*} formData
  * @returns
  */
-export const submitForm = async function (formData) {
-  try {
-    this._sendMail(formData);
-  } catch (error) {
-    throw error;
-  }
-};
+// export const submitForm = function (formData) {
+//   _sendMail(formData);
+//   this.con;
+// };
+
+// const _sendMail = function (data) {
+//   console.log(data);
+
+//   Email.send({
+//     SecureToken: "e6a6fbc7-b7af-4d79-af7f-4366e22be408",
+//     To: "yusepah@gmail.com",
+//     From: "josealbdr84@gmail.com",
+//     Subject: data.subject,
+//     Body: data.message,
+//   }).then((message) => alert(message));
+// };
 
 export const contactForm = {
   title: "Enviame un mensaje",
   items: [
     {
       id: "name",
-      name: "name",
+      name: "user_name",
       placeholder: "Nombre",
       for: "name",
       label: "Nombre",
     },
     {
       id: "email",
-      name: "email",
+      name: "user_email",
       placeholder: "Email",
       for: "email",
       label: "Email",
@@ -372,14 +383,6 @@ export const contactForm = {
       placeholder: "Asunto",
       for: "subject",
       label: "Asunto",
-    },
-
-    {
-      id: "message",
-      name: "message",
-      placeholder: "Mensaje",
-      for: "message",
-      label: "Mensaje",
     },
   ],
 };
@@ -418,3 +421,6 @@ export const contactWays = {
     },
   ],
 };
+
+// cjmfaczuyuvctwgi
+// e6a6fbc7-b7af-4d79-af7f-4366e22be408
