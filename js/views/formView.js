@@ -12,39 +12,43 @@ class FormView extends View {
   /**
    * Clears the form fields by setting their values to empty.
    */
-  clearForm() {
+  _clearForm() {
     const fields = document.querySelectorAll(".form-field");
     fields.forEach((field) => (field.value = ""));
   }
 
   /**
-   * Adds a submit event handler to the form element.
-   * @param {Function} handler - The handler function to be called on form submission.
+   * Event handler for submit form
    */
-  submitForm() {
+  addHandlerSubmit(handler) {
+    const formClass = this;
     document
       .getElementById("contact-form")
       .addEventListener("submit", function (event) {
         event.preventDefault();
-        console.log(this);
-        // this.contact_number.value = (Math.random() * 100000) | 0;
-        emailjs.sendForm("service_pm9chgb", "contact_form", this).then(
-          function () {
-            console.log("SUCCESS!");
-          },
-          function (error) {
-            console.log("FAILED...", error);
-          }
-        );
-        // const dataArr = [...new FormData(this)];
-        // const data = Object.fromEntries(dataArr);
+        const test = document.getElementById("test");
+        if (+test.value === 5) {
+          // this.contact_number.value = (Math.random() * 100000) | 0;
+          handler(document.getElementById("contact-form"));
+          setTimeout(() => {
+            formClass._clearForm();
+            formClass._successMsg();
+          }, 1000);
+        } else {
+          formClass._clearForm();
+          const msg = document.getElementById("fbmessage");
+          msg.textContent = "";
+          msg.textContent = "Respuesta erronea.";
+        }
       });
   }
 
   /**
    * Displays a success message after submitting the form.
    */
-  successMsg() {
+  _successMsg() {
+    const msg = document.getElementById("fbmessage");
+    msg.textContent = "";
     const btn = document.querySelector(".send");
     btn.insertAdjacentHTML("afterend", "<p>Gracias por enviar tu mensaje.</p>");
   }
@@ -85,7 +89,7 @@ class FormView extends View {
     return `
       <div class="col-md-6 mb-md-0 py-5 px-5 mb-5 bg-blue">
         <h3 class="pb-5 fw-bold">${data.title}</h3>
-        <form id="contact-form" class="form upload" id="contact-form method="POST">
+        <form id="contact-form" class="form upload" id="contact-form" method="POST">
           <fieldset>
           <imput type="hidden" name="contact_number">
            ${data.items.map((item) => this._generateInputMarkup(item)).join("")}
@@ -101,11 +105,29 @@ class FormView extends View {
                 </div>
               </div>
             </div>
-            <div class="g-recaptcha" data-sitekey="${CATCHA}"></div>
+            <div class="row">
+              <div class="col-md-12 pb-5">
+                <div class="md-form mb-0 form-group filed">
+                <input
+                  value=""
+                  type="number"
+                  id="test"
+                  name="test"
+                  class="form-control form-field"
+                  placeholder="3 + 2"
+                  required
+                  />
+                  <label for="test" class="form-label mb-5">
+                  3 + 2
+                  </label>
+                </div>
+              </div>
+            </div>
             <div class="text-md-left">
               <button class="send btn btn-lg btn-outline-primary boton">
                 Enviar
               </button>
+              <p id="fbmessage"></p>
             </div>
           </fieldset>
         </form>

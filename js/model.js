@@ -342,22 +342,16 @@ export const formationItems = [
  * @param {*} formData
  * @returns
  */
-// export const submitForm = function (formData) {
-//   _sendMail(formData);
-//   this.con;
-// };
-
-// const _sendMail = function (data) {
-//   console.log(data);
-
-//   Email.send({
-//     SecureToken: "e6a6fbc7-b7af-4d79-af7f-4366e22be408",
-//     To: "yusepah@gmail.com",
-//     From: "josealbdr84@gmail.com",
-//     Subject: data.subject,
-//     Body: data.message,
-//   }).then((message) => alert(message));
-// };
+export const submitForm = function (formData) {
+  emailjs.sendForm("service_pm9chgb", "contact_form", formData).then(
+    function () {
+      console.log("SUCCESS!");
+    },
+    function (error) {
+      console.log("FAILED...", error);
+    }
+  );
+};
 
 export const contactForm = {
   title: "Enviame un mensaje",

@@ -30,31 +30,10 @@ footerView.render(model.footerItems);
 formationView.render(model.formationItems);
 formView.getData(model.contactWays);
 formView.render(model.contactForm);
-// formView.submitForm();
-// const controlSubmitForm = function (formData) {
-//   model.submitForm(formData);
-//   formView.clearForm();
-//   formView.successMsg();
-// };
 
-document
-  .getElementById("contact-form")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
-    // generate a five digit number for the contact_number variable
-    // this.contact_number.value = (Math.random() * 100000) | 0;
-    // these IDs from the previous steps
-    emailjs.sendForm("service_pm9chgb", "contact_form", this).then(
-      function () {
-        console.log("SUCCESS!");
-        formView.clearForm();
-        formView.successMsg();
-      },
-      function (error) {
-        console.log("FAILED...", error);
-      }
-    );
-  });
+const controlSubmitForm = function (form) {
+  model.submitForm(form);
+};
 
-// formView.addHandlerSubmit(controlSubmitForm);
+formView.addHandlerSubmit(controlSubmitForm);
 init();
