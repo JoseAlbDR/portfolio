@@ -35,7 +35,6 @@ class FormView extends View {
             formClass._successMsg();
           }, 1000);
         } else {
-          formClass._clearForm();
           const msg = document.getElementById("fbmessage");
           msg.textContent = "";
           msg.textContent = "Respuesta erronea.";
