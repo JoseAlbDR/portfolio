@@ -251,6 +251,11 @@ export const footerItems = [
         alt: "linkedin alberto delgado",
         src: "assets/logos/linkedin.svg",
       },
+      {
+        href: "https://codesandbox.io/u/josealbdr",
+        alt: "codesandobx alberto delgado",
+        src: "assets/logos/code-sandbox.svg",
+      },
     ],
     menu: [
       {
@@ -412,6 +417,13 @@ export const contactWays = {
       name: "GitHub:",
       href: "https://github.com/JoseAlbDR",
       content: "MyGit",
+    },
+    {
+      src: "assets/logos/code-sandbox.svg",
+      alt: "codesandbox alberto delgado",
+      name: "CodeSandBox:",
+      href: "https://codesandbox.io/u/josealbdr",
+      content: "CodeSandBox",
     },
   ],
 };
