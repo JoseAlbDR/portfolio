@@ -512,6 +512,13 @@ export const contactWays = {
       content: "Portfolio",
     },
     {
+      src: "assets/logos/globe-europe-africa.svg",
+      alt: "world",
+      name: "HTML+CSS Website:",
+      href: "https://www.jadero.dev/",
+      content: "Alt Portfolio",
+    },
+    {
       src: "assets/logos/github.svg",
       alt: "github alberto delgado",
       name: "GitHub:",
@@ -527,6 +534,3 @@ export const contactWays = {
     },
   ],
 };
-
-// cjmfaczuyuvctwgi
-// e6a6fbc7-b7af-4d79-af7f-4366e22be408
