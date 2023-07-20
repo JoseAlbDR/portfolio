@@ -23,6 +23,26 @@ export const projectItems = [
     ],
   },
   {
+    name: "WorldWise",
+    text: "React Web APP que te permite hacer un seguimiento de las ciudades que has visitado alrededor del mundo..",
+    thumbnail: "./assets/thumbnail/WorldWise.png",
+    alt: "WorldWise",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github worldwise",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/worldwise",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web worldwise",
+        name: "Web",
+        url: "https://jadr-worldwide.netlify.app",
+      },
+    ],
+  },
+  {
     name: "Forkify",
     text: "Web APP en la que puedes buscar recetas y guardar tus favoritas. Las recetas se obtienen llamando a una API externa.",
     thumbnail: "./assets/thumbnail/forkify.png",
