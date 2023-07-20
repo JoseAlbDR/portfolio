@@ -77,7 +77,7 @@ export const projectItems = [
       {
         src: "assets/logos/globe-europe-africa.svg",
         alt: "usepopcorn",
-        name: "Docs",
+        name: "Web",
         url: "https://usepopcorn.jadero.dev/",
       },
     ],
@@ -97,7 +97,7 @@ export const projectItems = [
       {
         src: "assets/logos/globe-europe-africa.svg",
         alt: "jadero.dev",
-        name: "Docs",
+        name: "Web",
         url: "https://www.jadero.dev",
       },
     ],
