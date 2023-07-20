@@ -3,6 +3,26 @@ import { PASS } from "../private/config.js";
 // Object to save projects
 export const projectItems = [
   {
+    name: "JSQuiz",
+    text: "React Web APP que permite a los usuarios responder preguntas y realiza un seguimiento de su puntuación.",
+    thumbnail: "./assets/thumbnail/jsquiz.png",
+    alt: "JSQuiz",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github JSQuiz",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/js-quiz",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "web JSQuiz",
+        name: "Web",
+        url: "https://jsquiz.jadelgadorobles.com",
+      },
+    ],
+  },
+  {
     name: "Forkify",
     text: "Web APP en la que puedes buscar recetas y guardar tus favoritas. Las recetas se obtienen llamando a una API externa.",
     thumbnail: "./assets/thumbnail/forkify.png",
