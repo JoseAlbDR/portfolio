@@ -24,7 +24,7 @@ export const projectItems = [
   },
   {
     name: "WorldWise",
-    text: "React Web APP que te permite hacer un seguimiento de las ciudades que has visitado alrededor del mundo..",
+    text: "React Web APP que te permite hacer un seguimiento de las ciudades que has visitado alrededor del mundo.",
     thumbnail: "./assets/thumbnail/WorldWise.png",
     alt: "WorldWise",
     buttons: [
@@ -39,6 +39,66 @@ export const projectItems = [
         alt: "web worldwise",
         name: "Web",
         url: "https://jadr-worldwide.netlify.app",
+      },
+    ],
+  },
+  {
+    name: "API JsQuiz",
+    text: "Rest API desarollada con Node y Express para hacer operaciones CRUD sobre una base de datos de preguntas de JavaScript.",
+    thumbnail: "./assets/thumbnail/WorldWise.png",
+    alt: "jsquiz api",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github jsquiz api",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/js-quiz-Api",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "jsquiz api",
+        name: "Docs",
+        url: "https://jsquiz.jadero.dev/api/v1/docs",
+      },
+    ],
+  },
+  {
+    name: "UsePopCorn",
+    text: "Web APP en la que puedes buscar peliculas y guardarlas asignándoles un rating, muestra estadisticas sobre todas las peliculas guardadas.",
+    thumbnail: "./assets/thumbnail/usepopcorn.png",
+    alt: "usepopcorn",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github usepopcorn",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/usepopcorn-react",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "usepopcorn",
+        name: "Docs",
+        url: "https://usepopcorn.jadero.dev/",
+      },
+    ],
+  },
+  {
+    name: "PortFolio",
+    text: "Mobile First Web desarrollada solo con HTML y CSS, práctica parte del bootcamp que estoy cursando en KeepCoding.",
+    thumbnail: "./assets/thumbnail/portfolioKC.png",
+    alt: "portfolio jadero.dev",
+    buttons: [
+      {
+        src: "assets/logos/github.svg",
+        alt: "github portfolio",
+        name: "GitHub",
+        url: "https://github.com/JoseAlbDR/practica-html-css",
+      },
+      {
+        src: "assets/logos/globe-europe-africa.svg",
+        alt: "jadero.dev",
+        name: "Docs",
+        url: "https://www.jadero.dev",
       },
     ],
   },
