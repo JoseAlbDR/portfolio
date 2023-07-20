@@ -45,7 +45,7 @@ export const projectItems = [
   {
     name: "API JsQuiz",
     text: "Rest API desarollada con Node y Express para hacer operaciones CRUD sobre una base de datos de preguntas de JavaScript.",
-    thumbnail: "./assets/thumbnail/WorldWise.png",
+    thumbnail: "./assets/thumbnail/jsquizapi.png",
     alt: "jsquiz api",
     buttons: [
       {
