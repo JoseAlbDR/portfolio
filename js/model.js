@@ -411,7 +411,7 @@ export const formationItems = [
       name: "Certificación",
       titulation: [
         {
-          title: "Bootcap Desarrollo Web Full Stack KeepCoding",
+          title: "Bootcamp Desarrollo Web Full Stack KeepCoding",
           date: "Mayo 2023 - Actualidad",
           certificate: null,
           institution:
@@ -435,6 +435,23 @@ export const formationItems = [
           institution:
             "<a href='https://plataforma.keepcoding.io/p/curso-git-github-sourcetree' target='_blank'>KeepCoding</a>",
           text: "El curso Git, GitHub & Sourcetree de KeepCoding es una formación completa que enseña a los estudiantes cómo utilizar Git y GitHub de manera eficiente para el control de versiones y la colaboración en proyectos de desarrollo de software. Además, el curso abarca el uso de Sourcetree como una herramienta visual para facilitar el flujo de trabajo con Git.",
+        },
+        {
+          title: "The Complete 2023 Web Development Bootcamp",
+          date: "Junio 2023",
+          certificate:
+            "<a href='https://www.udemy.com/certificate/UC-37a8a1d8-8e4e-4162-b5fd-7216ca26ef8b/' target='_blank'>Certificado</a>",
+          institution:
+            "<a href='https://www.udemy.com/course/the-complete-web-development-bootcamp' target='_blank'>KeepCoding</a>",
+          text: "El curso 'The Complete 2023 Web Development Bootcamp' de Udemy es una formación integral en desarrollo web actualizada hasta el año 2023. En este curso, he aprendido a utilizar y practicado las siguientes tecnologías: HMTL5, CSS3, JavaScript, Node.js, Express.js, MongoDB, React, Redux, Git y GItHub.",
+        },
+        {
+          title: "The Complete 2023 Web Development Bootcamp",
+          date: "Julio 2023 - Actualidad",
+          certificate: "Cursando...",
+          institution:
+            "<a href='https://www.udemy.com/course/the-ultimate-react-course' target='_blank'>KeepCoding</a>",
+          text: "'The Ultimate React Course' es una extensa formación en Udemy que me brinda un profundo conocimiento sobre React, Hooks, Redux, React Router, Firebase y Styled Components. Durante el curso, aprenderé a desarrollar aplicaciones web modernas y dinámicas utilizando estas tecnologías clave, lo que me permitirá crear interfaces de usuario interactivas y eficientes. Con lecciones detalladas y proyectos prácticos, este curso me preparará para convertirme en un desarrollador web altamente competente en el mundo de React y sus tecnologías asociadas",
         },
       ],
     },
